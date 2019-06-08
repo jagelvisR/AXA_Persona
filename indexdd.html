@@ -1,0 +1,3665 @@
+<form action="/Guardar" method="post">
+    <div class="datos-pasajero" nropax=1>
+        <h3>Pasajero 1</h3>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <label>Nombre:</label>
+<input class="form-control" id="txtName_1" name="txtName_1" placeholder="Tu nombre completo" required="" type="text" value="" />                
+<span class="error" style="display: none"></span>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Apellido:</label>
+<input class="form-control" id="txtApellido_1" name="txtApellido_1" placeholder="Tu/s apellido/s completo/s" required="" type="text" value="" />                <span class="error" style="display: none"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <div class="row">
+                    <div class="col-xs-5 pr">
+                        <label>Tipo de documento:</label>
+                        <select name="ddlDocumentTypeP_1" id="ddlDocumentTypeP_1" class="form-control">
+                                <option value="1" data-placeholder="N&#250;meros y letras" data-validation="">
+                                    Pasaporte
+                                </option>
+                        </select>
+                    </div>
+                    <div class="col-xs-7 pl">
+                        <label>N&#250;mero:</label>
+                        <input class="form-control passengerDocNro" id="txtNroDocumentoP_1" name="txtNroDocumentoP_1" placeholder="Solo números Ej: 123456" required="" type="text" value="" />
+                        <span class="error" style="display: none"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <label>Fecha de nacimiento:</label>
+                <div class="row">
+                    <div class="col-xs-3 pr">
+                        <input class="form-control" id="txtDias_1" max="31" maxlength="2" min="1" name="txtDias_1" placeholder="DD" type="number" value="" width="200px" />
+                    </div>
+                    <div class="col-xs-5 pr pl">
+                        <select class="form-control" id="ddlMeses_1" name="ddlMeses_1"><option selected="selected" value="01">enero</option>
+<option value="02">febrero</option>
+<option value="03">marzo</option>
+<option value="04">abril</option>
+<option value="05">mayo</option>
+<option value="06">junio</option>
+<option value="07">julio</option>
+<option value="08">agosto</option>
+<option value="09">septiembre</option>
+<option value="10">octubre</option>
+<option value="11">noviembre</option>
+<option value="12">diciembre</option>
+</select>
+                    </div>
+                    <div class="col-xs-4 pl">
+                        <input class="form-control" id="txtAnios_1" max="2019" maxlength="4" min="1889" name="txtAnios_1" placeholder="YYYY" type="number" value="" width="300px" />
+                    </div>
+                </div>
+            </div>
+            <div id="showMenorBr" class="col-xs-12 col-md-12" style="margin-top: 5px; visibility: hidden;">
+                <p style="font-size: 12px!important;">Se o passageiro for menor de idade e n&#227;o possuir CPF, por favor informar o CPF do Respons&#225;vel.</p>
+            </div>
+        </div>
+        
+
+
+
+
+
+        
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <label>Email <small>(donde recibir&#225;s la informaci&#243;n del viaje)</small></label>
+                <input Id="emailP_1" class="form-control" equalValue="confemailP_1" id="emailP_1" name="emailP_1" placeholder="Tu dirección de email" required="" type="email" value="" />
+                <span class="error" style="display: none"></span>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <label>Confirma tu email:</label>
+                <input Id="confemailP_1" class="form-control" equalValue="emailP_1" id="confemailP_1" name="confemailP_1" placeholder="Tu dirección de email" required="" type="email" value="" />
+                <span class="error" style="display: none"></span>
+            </div>
+        </div>
+        
+
+       
+            
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6" style="">
+                            <label>Tipo</label>
+                            <select class="form-control" id="tipoTelefono_1" name="tipoTelefono_1">
+                                <option> Celular</option>
+                                <option> Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="col-xs-12 col-md-6" style="">
+                            <label>Pa&#237;s</label>
+                          
+                            <select name="dllPais_1" id="dllPais_1" class="form-control">
+                                    <option value="93" >
+                                        Afghanistan (+93)
+                                    </option>
+                                    <option value="355" >
+                                        Albania (+355)
+                                    </option>
+                                    <option value="49" >
+                                        Alemania (+49)
+                                    </option>
+                                    <option value="213" >
+                                        Algeria (+213)
+                                    </option>
+                                    <option value="376" >
+                                        Andorra (+376)
+                                    </option>
+                                    <option value="244" >
+                                        Angola (+244)
+                                    </option>
+                                    <option value="1" >
+                                        Anguilla_ES (+1)
+                                    </option>
+                                    <option value="1" >
+                                        Antigua y Barbuda (+1)
+                                    </option>
+                                    <option value="599" >
+                                        Antillas Holandesas (+599)
+                                    </option>
+                                    <option value="966" >
+                                        Arabia Saudita (+966)
+                                    </option>
+                                    <option value="54" >
+                                        Argentina (+54)
+                                    </option>
+                                    <option value="374" >
+                                        Armenia (+374)
+                                    </option>
+                                    <option value="297" >
+                                        Aruba (+297)
+                                    </option>
+                                    <option value="247" >
+                                        Ascension Island (+247)
+                                    </option>
+                                    <option value="61" >
+                                        Australia (+61)
+                                    </option>
+                                    <option value="43" >
+                                        Austria (+43)
+                                    </option>
+                                    <option value="994" >
+                                        Azerbaiy&#225;n (+994)
+                                    </option>
+                                    <option value="1" >
+                                        Bahamas (+1)
+                                    </option>
+                                    <option value="973" >
+                                        Bahrain (+973)
+                                    </option>
+                                    <option value="880" >
+                                        Bangladesh (+880)
+                                    </option>
+                                    <option value="1" >
+                                        Barbados (+1)
+                                    </option>
+                                    <option value="375" >
+                                        Belarus (+375)
+                                    </option>
+                                    <option value="32" >
+                                        B&#233;lgica (+32)
+                                    </option>
+                                    <option value="501" >
+                                        Belice (+501)
+                                    </option>
+                                    <option value="229" >
+                                        Benin (+229)
+                                    </option>
+                                    <option value="1" >
+                                        Bermuda (+1)
+                                    </option>
+                                    <option value="975" >
+                                        Bhutan (+975)
+                                    </option>
+                                    <option value="591" >
+                                        Bolivia (+591)
+                                    </option>
+                                    <option value="5997" >
+                                        Bonaire (+5997)
+                                    </option>
+                                    <option value="387" >
+                                        Bosnia and Herzegowina (+387)
+                                    </option>
+                                    <option value="267" >
+                                        Botswana (+267)
+                                    </option>
+                                    <option value="0" >
+                                        Bouvet Island (+0)
+                                    </option>
+                                    <option value="55" >
+                                        Brasil (+55)
+                                    </option>
+                                    <option value="246" >
+                                        British Ocean Territory (+246)
+                                    </option>
+                                    <option value="673" >
+                                        Brunei (+673)
+                                    </option>
+                                    <option value="359" >
+                                        Bulgaria (+359)
+                                    </option>
+                                    <option value="226" >
+                                        Burkina Faso (+226)
+                                    </option>
+                                    <option value="257" >
+                                        Burundi (+257)
+                                    </option>
+                                    <option value="855" >
+                                        Cambodia (+855)
+                                    </option>
+                                    <option value="237" >
+                                        Camer&#250;n (+237)
+                                    </option>
+                                    <option value="1" >
+                                        Canad&#225; (+1)
+                                    </option>
+                                    <option value="235" >
+                                        Chad (+235)
+                                    </option>
+                                    <option value="56" >
+                                        Chile (+56)
+                                    </option>
+                                    <option value="86" >
+                                        China (+86)
+                                    </option>
+                                    <option value="357" >
+                                        Chipre (+357)
+                                    </option>
+                                    <option value="6189162" >
+                                        Cocos (Keeling) Islands (+6189162)
+                                    </option>
+                                    <option value="57" >
+                                        Colombia (+57)
+                                    </option>
+                                    <option value="269" >
+                                        Comoros (+269)
+                                    </option>
+                                    <option value="242" >
+                                        Congo (+242)
+                                    </option>
+                                    <option value="243" >
+                                        Congo, Rep&#250;blica del (+243)
+                                    </option>
+                                    <option value="682" >
+                                        Cook Islands (+682)
+                                    </option>
+                                    <option value="850" >
+                                        Corea del Norte (+850)
+                                    </option>
+                                    <option value="82" >
+                                        Corea del Sur (+82)
+                                    </option>
+                                    <option value="506" >
+                                        Costa Rica (+506)
+                                    </option>
+                                    <option value="225" >
+                                        Cote d Ivoire (+225)
+                                    </option>
+                                    <option value="385" >
+                                        Croacia (+385)
+                                    </option>
+                                    <option value="53" >
+                                        Cuba (+53)
+                                    </option>
+                                    <option value="5999" >
+                                        Curazao (+5999)
+                                    </option>
+                                    <option value="0" >
+                                        Demo Country (+0)
+                                    </option>
+                                    <option value="45" >
+                                        Dinamarca (+45)
+                                    </option>
+                                    <option value="253" >
+                                        Djibouti (+253)
+                                    </option>
+                                    <option value="1" >
+                                        Dominica (+1)
+                                    </option>
+                                    <option value="670" >
+                                        East Timor (+670)
+                                    </option>
+                                    <option value="593" >
+                                        Ecuador (+593)
+                                    </option>
+                                    <option value="20" >
+                                        Egipto (+20)
+                                    </option>
+                                    <option value="503" >
+                                        El Salvador (+503)
+                                    </option>
+                                    <option value="971" >
+                                        Emiratos &#193;rabes Unidos (+971)
+                                    </option>
+                                    <option value="240" >
+                                        Equatorial Guinea (+240)
+                                    </option>
+                                    <option value="291" >
+                                        Eritrea (+291)
+                                    </option>
+                                    <option value="421" >
+                                        Eslovaquia (+421)
+                                    </option>
+                                    <option value="386" >
+                                        Eslovenia (+386)
+                                    </option>
+                                    <option value="34" >
+                                        Espa&#241;a (+34)
+                                    </option>
+                                    <option value="1" >
+                                        Estados unidos (+1)
+                                    </option>
+                                    <option value="372" >
+                                        Estonia (+372)
+                                    </option>
+                                    <option value="251" >
+                                        Etiop&#237;a (+251)
+                                    </option>
+                                    <option value="500" >
+                                        Falkland Islands (Malvinas) (+500)
+                                    </option>
+                                    <option value="679" >
+                                        Fiji (+679)
+                                    </option>
+                                    <option value="63" >
+                                        Filipinas (+63)
+                                    </option>
+                                    <option value="358" >
+                                        Finlandia (+358)
+                                    </option>
+                                    <option value="33" >
+                                        Francia (+33)
+                                    </option>
+                                    <option value="689" >
+                                        French Polynesia (+689)
+                                    </option>
+                                    <option value="262" >
+                                        French Southern Territories (+262)
+                                    </option>
+                                    <option value="241" >
+                                        Gabon (+241)
+                                    </option>
+                                    <option value="220" >
+                                        Gambia (+220)
+                                    </option>
+                                    <option value="995" >
+                                        Georgia (+995)
+                                    </option>
+                                    <option value="233" >
+                                        Ghana (+233)
+                                    </option>
+                                    <option value="350" >
+                                        Gibraltar (+350)
+                                    </option>
+                                    <option value="30" >
+                                        Grecia (+30)
+                                    </option>
+                                    <option value="299" >
+                                        Greenland (+299)
+                                    </option>
+                                    <option value="1" >
+                                        Grenada (+1)
+                                    </option>
+                                    <option value="590" >
+                                        Guadeloupe (+590)
+                                    </option>
+                                    <option value="1" >
+                                        Guam (+1)
+                                    </option>
+                                    <option value="502" >
+                                        Guatemala (+502)
+                                    </option>
+                                    <option value="594" >
+                                        Guayana Francesa (+594)
+                                    </option>
+                                    <option value="224" >
+                                        Guinea (+224)
+                                    </option>
+                                    <option value="245" >
+                                        Guinea-Bissau (+245)
+                                    </option>
+                                    <option value="592" >
+                                        Guyana (+592)
+                                    </option>
+                                    <option value="509" >
+                                        Hait&#237; (+509)
+                                    </option>
+                                    <option value="672" >
+                                        Heard and Mc Donald Islands (+672)
+                                    </option>
+                                    <option value="379" >
+                                        Holy See (Vatican City State) (+379)
+                                    </option>
+                                    <option value="504" >
+                                        Honduras (+504)
+                                    </option>
+                                    <option value="852" >
+                                        Hong Kong (+852)
+                                    </option>
+                                    <option value="36" >
+                                        Hungr&#237;a (+36)
+                                    </option>
+                                    <option value="91" >
+                                        India (+91)
+                                    </option>
+                                    <option value="62" >
+                                        Indonesia (+62)
+                                    </option>
+                                    <option value="44" >
+                                        Inglaterra (+44)
+                                    </option>
+                                    <option value="98" >
+                                        Ir&#225;n, Rep&#250;blica Isl&#225;mica de (+98)
+                                    </option>
+                                    <option value="964" >
+                                        Iraq (+964)
+                                    </option>
+                                    <option value="353" >
+                                        Irlanda (+353)
+                                    </option>
+                                    <option value="247" >
+                                        Irlanda del Norte (+247)
+                                    </option>
+                                    <option value="6189164" >
+                                        Isla de Navidad (+6189164)
+                                    </option>
+                                    <option value="354" >
+                                        islandia (+354)
+                                    </option>
+                                    <option value="1" >
+                                        Islas Caim&#225;n (+1)
+                                    </option>
+                                    <option value="298" >
+                                        Islas Faroe (+298)
+                                    </option>
+                                    <option value="1" >
+                                        Islas Turcas y Caicos (+1)
+                                    </option>
+                                    <option value="1" >
+                                        Islas V&#237;rgenes (Brit&#225;nicas) (+1)
+                                    </option>
+                                    <option value="1" >
+                                        Islas V&#237;rgenes (EE.UU.) (+1)
+                                    </option>
+                                    <option value="972" >
+                                        Israel (+972)
+                                    </option>
+                                    <option value="39" >
+                                        Italia (+39)
+                                    </option>
+                                    <option value="1" >
+                                        Jamaica (+1)
+                                    </option>
+                                    <option value="81" >
+                                        Jap&#243;n (+81)
+                                    </option>
+                                    <option value="962" >
+                                        Jordan (+962)
+                                    </option>
+                                    <option value="7" >
+                                        Kazajst&#225;n (+7)
+                                    </option>
+                                    <option value="254" >
+                                        Kenia (+254)
+                                    </option>
+                                    <option value="686" >
+                                        Kiribati (+686)
+                                    </option>
+                                    <option value="965" >
+                                        Kuwait (+965)
+                                    </option>
+                                    <option value="996" >
+                                        Kyrgyzstan (+996)
+                                    </option>
+                                    <option value="856" >
+                                        Laos (+856)
+                                    </option>
+                                    <option value="371" >
+                                        Latvia (+371)
+                                    </option>
+                                    <option value="961" >
+                                        Lebanon (+961)
+                                    </option>
+                                    <option value="266" >
+                                        Lesotho (+266)
+                                    </option>
+                                    <option value="231" >
+                                        Liberia (+231)
+                                    </option>
+                                    <option value="218" >
+                                        Libia (+218)
+                                    </option>
+                                    <option value="423" >
+                                        Liechtenstein (+423)
+                                    </option>
+                                    <option value="370" >
+                                        Lituania (+370)
+                                    </option>
+                                    <option value="352" >
+                                        Luxenburgo (+352)
+                                    </option>
+                                    <option value="853" >
+                                        Macau (+853)
+                                    </option>
+                                    <option value="389" >
+                                        Macedonia (+389)
+                                    </option>
+                                    <option value="261" >
+                                        Madagascar (+261)
+                                    </option>
+                                    <option value="60" >
+                                        Malasia (+60)
+                                    </option>
+                                    <option value="265" >
+                                        Malawi (+265)
+                                    </option>
+                                    <option value="960" >
+                                        Maldivas (+960)
+                                    </option>
+                                    <option value="223" >
+                                        Mali (+223)
+                                    </option>
+                                    <option value="356" >
+                                        Malta (+356)
+                                    </option>
+                                    <option value="212" >
+                                        Marruecos (+212)
+                                    </option>
+                                    <option value="692" >
+                                        Marshall Islands (+692)
+                                    </option>
+                                    <option value="596" >
+                                        Martinique (+596)
+                                    </option>
+                                    <option value="222" >
+                                        Mauritania (+222)
+                                    </option>
+                                    <option value="230" >
+                                        Mauritius (+230)
+                                    </option>
+                                    <option value="262" >
+                                        Mayotte (+262)
+                                    </option>
+                                    <option value="52" >
+                                        M&#233;xico (+52)
+                                    </option>
+                                    <option value="691" >
+                                        Micronesia (+691)
+                                    </option>
+                                    <option value="373" >
+                                        Moldova, Republic of (+373)
+                                    </option>
+                                    <option value="377" >
+                                        Monaco (+377)
+                                    </option>
+                                    <option value="976" >
+                                        Mongolia (+976)
+                                    </option>
+                                    <option value="382" >
+                                        Montenegro (+382)
+                                    </option>
+                                    <option value="1" >
+                                        Montserrat (+1)
+                                    </option>
+                                    <option value="258" >
+                                        Mozambique (+258)
+                                    </option>
+                                    <option value="95" >
+                                        Myanmar (+95)
+                                    </option>
+                                    <option value="264" >
+                                        Namibia (+264)
+                                    </option>
+                                    <option value="674" >
+                                        Nauru (+674)
+                                    </option>
+                                    <option value="977" >
+                                        Nepal (+977)
+                                    </option>
+                                    <option value="505" >
+                                        Nicaragua (+505)
+                                    </option>
+                                    <option value="227" >
+                                        Niger (+227)
+                                    </option>
+                                    <option value="234" >
+                                        Nigeria (+234)
+                                    </option>
+                                    <option value="247" >
+                                        Niue (+247)
+                                    </option>
+                                    <option value="672" >
+                                        Norfolk Island (+672)
+                                    </option>
+                                    <option value="1" >
+                                        Northern Mariana Islands (+1)
+                                    </option>
+                                    <option value="47" >
+                                        Noruega (+47)
+                                    </option>
+                                    <option value="687" >
+                                        Nueva Caledonia (+687)
+                                    </option>
+                                    <option value="64" >
+                                        Nueva Zelanda (+64)
+                                    </option>
+                                    <option value="0" >
+                                        Otros (+0)
+                                    </option>
+                                    <option value="31" >
+                                        Pa&#237;ses Bajos (+31)
+                                    </option>
+                                    <option value="92" >
+                                        Pakistan (+92)
+                                    </option>
+                                    <option value="680" >
+                                        Palau (+680)
+                                    </option>
+                                    <option value="970" >
+                                        Palestinian Territory (+970)
+                                    </option>
+                                    <option value="507" >
+                                        Panam&#225; (+507)
+                                    </option>
+                                    <option value="675" >
+                                        Pap&#250;a Nueva Guinea (+675)
+                                    </option>
+                                    <option value="595" >
+                                        Paraguay (+595)
+                                    </option>
+                                    <option value="51" >
+                                        Per&#250; (+51)
+                                    </option>
+                                    <option value="64" >
+                                        Pitcairn (+64)
+                                    </option>
+                                    <option value="48" >
+                                        Polonia (+48)
+                                    </option>
+                                    <option value="351" >
+                                        Portugal (+351)
+                                    </option>
+                                    <option value="1" >
+                                        Puerto Rico (+1)
+                                    </option>
+                                    <option value="0" >
+                                        Pullmantur (+0)
+                                    </option>
+                                    <option value="974" >
+                                        Qatar (+974)
+                                    </option>
+                                    <option value="44" >
+                                        Reino Unido (+44)
+                                    </option>
+                                    <option value="963" >
+                                        Rep&#250;blica &#193;rabe Siria (+963)
+                                    </option>
+                                    <option value="236" >
+                                        Rep&#250;blica Centroafricana (+236)
+                                    </option>
+                                    <option value="420" >
+                                        Rep&#250;blica Checa (+420)
+                                    </option>
+                                    <option value="1" >
+                                        Rep&#250;blica Dominicana (+1)
+                                    </option>
+                                    <option value="0" >
+                                        Royal Caribbean (+0)
+                                    </option>
+                                    <option value="40" >
+                                        Rumania (+40)
+                                    </option>
+                                    <option value="7" >
+                                        Rusia (+7)
+                                    </option>
+                                    <option value="250" >
+                                        Rwanda (+250)
+                                    </option>
+                                    <option value="1" >
+                                        Saint Kitts and Nevis (+1)
+                                    </option>
+                                    <option value="508" >
+                                        Saint Pierre and Miquelon (+508)
+                                    </option>
+                                    <option value="1" >
+                                        Saint Vincent &amp; Gren. (+1)
+                                    </option>
+                                    <option value="685" >
+                                        Samoa (+685)
+                                    </option>
+                                    <option value="1" >
+                                        Samoa Americana (+1)
+                                    </option>
+                                    <option value="378" >
+                                        San Marino (+378)
+                                    </option>
+                                    <option value="590" >
+                                        San Mart&#237;n (+590)
+                                    </option>
+                                    <option value="290" >
+                                        Santa Elena (+290)
+                                    </option>
+                                    <option value="1" >
+                                        Santa Luc&#237;a (+1)
+                                    </option>
+                                    <option value="239" >
+                                        Sao Tome and Principe (+239)
+                                    </option>
+                                    <option value="221" >
+                                        Senegal (+221)
+                                    </option>
+                                    <option value="381" >
+                                        Serbia (+381)
+                                    </option>
+                                    <option value="248" >
+                                        Seychelles (+248)
+                                    </option>
+                                    <option value="232" >
+                                        Sierra Leone (+232)
+                                    </option>
+                                    <option value="65" >
+                                        Singapur (+65)
+                                    </option>
+                                    <option value="677" >
+                                        Solomon Islands (+677)
+                                    </option>
+                                    <option value="252" >
+                                        Somalia (+252)
+                                    </option>
+                                    <option value="94" >
+                                        Sri Lanka (+94)
+                                    </option>
+                                    <option value="27" >
+                                        Sud&#225;frica (+27)
+                                    </option>
+                                    <option value="249" >
+                                        Sudan (+249)
+                                    </option>
+                                    <option value="46" >
+                                        Suecia (+46)
+                                    </option>
+                                    <option value="41" >
+                                        Suiza (+41)
+                                    </option>
+                                    <option value="968" >
+                                        Sultanate of Oman (+968)
+                                    </option>
+                                    <option value="597" >
+                                        Suriname (+597)
+                                    </option>
+                                    <option value="47" >
+                                        Svalbard and Jan Mayen Islands (+47)
+                                    </option>
+                                    <option value="268" >
+                                        Swaziland (+268)
+                                    </option>
+                                    <option value="247" >
+                                        Tahiti (+247)
+                                    </option>
+                                    <option value="66" >
+                                        Tailandia (+66)
+                                    </option>
+                                    <option value="886" >
+                                        Taiw&#225;n, Provincia de China (+886)
+                                    </option>
+                                    <option value="992" >
+                                        Tajikistan (+992)
+                                    </option>
+                                    <option value="255" >
+                                        Tanzania, Rep&#250;blica Unida de (+255)
+                                    </option>
+                                    <option value="670" >
+                                        Timor-Leste (+670)
+                                    </option>
+                                    <option value="228" >
+                                        Togo (+228)
+                                    </option>
+                                    <option value="690" >
+                                        Tokelau (+690)
+                                    </option>
+                                    <option value="676" >
+                                        Tonga (+676)
+                                    </option>
+                                    <option value="1" >
+                                        Trinidad y Tobago (+1)
+                                    </option>
+                                    <option value="247" >
+                                        Tristan da Cunha (+247)
+                                    </option>
+                                    <option value="216" >
+                                        T&#250;nez (+216)
+                                    </option>
+                                    <option value="993" >
+                                        Turkmenistan (+993)
+                                    </option>
+                                    <option value="90" >
+                                        Turqu&#237;a (+90)
+                                    </option>
+                                    <option value="688" >
+                                        Tuvalu (+688)
+                                    </option>
+                                    <option value="380" >
+                                        Ucrania (+380)
+                                    </option>
+                                    <option value="256" >
+                                        Uganda (+256)
+                                    </option>
+                                    <option value="598" >
+                                        Uruguay (+598)
+                                    </option>
+                                    <option value="998" >
+                                        Uzbekistan (+998)
+                                    </option>
+                                    <option value="678" >
+                                        Vanuatu (+678)
+                                    </option>
+                                    <option value="58" selected>
+                                        Venezuela (+58)
+                                    </option>
+                                    <option value="84" >
+                                        Vietnam (+84)
+                                    </option>
+                                    <option value="247" >
+                                        Wake Island (+247)
+                                    </option>
+                                    <option value="247" >
+                                        Wales (+247)
+                                    </option>
+                                    <option value="681" >
+                                        Wallis and Futuna Islands (+681)
+                                    </option>
+                                    <option value="212" >
+                                        Western Sahara (+212)
+                                    </option>
+                                    <option value="0" >
+                                        WWW (+0)
+                                    </option>
+                                    <option value="967" >
+                                        Yemen (+967)
+                                    </option>
+                                    <option value="260" >
+                                        Zambia (+260)
+                                    </option>
+                                    <option value="247" >
+                                        Zanzibar (+247)
+                                    </option>
+                                    <option value="263" >
+                                        Zimbabwe (+263)
+                                    </option>
+                            </select>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-8">
+                            <label>N&#250;mero</label>
+                            <input Id="txtNumTelefono_1" class="form-control" id="txtNumTelefono_1" name="txtNumTelefono_1" placeholder="Ingresá un número de teléfono" required="" type="number" value="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        <div class="row">
+          
+        </div>
+
+    </div>
+
+
+<script>
+    $(document).ready(function () {
+        $("#ddlDocumentTypeP_1").ready(function () {
+            var txtP = document.getElementById("ddlDocumentTypeP_1");
+            $("#txtNroDocumentoP_1").attr("placeholder", txtP.selectedOptions[0].dataset.placeholder);
+            if (window.location.toString().indexOf("br") > 0 && document.getElementById("ddlDocumentTypeP_1").selectedIndex == 0) {
+                for(var i=0; i<showMenorBr.length;i++){
+                    showMenorBr[i].style.visibility = "visible";
+                }
+            }
+            else {
+                for(var i=0; i<showMenorBr.length;i++){
+                    showMenorBr[i].style.visibility = "hidden";
+                }
+            }
+        });
+        $("#ddlDocumentTypeP_1").change(function () {
+            var txtP = document.getElementById("ddlDocumentTypeP_1");
+            $("#txtNroDocumentoP_1").attr("placeholder", txtP.selectedOptions[0].dataset.placeholder);
+            if (window.location.toString().indexOf("br") > 0 && document.getElementById("ddlDocumentTypeP_1").selectedIndex == 0) {
+                for(var i=0; i<showMenorBr.length;i++){
+                    showMenorBr[i].style.visibility = "visible";
+                }
+            }
+            else {
+                for(var i=0; i<showMenorBr.length;i++){
+                    showMenorBr[i].style.visibility = "hidden";
+                }
+            }
+        });
+    });
+</script>
+
+    <div class="datos-pasajero" nropax=2>
+        <h3>Pasajero 2</h3>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <label>Nombre:</label>
+<input class="form-control" id="txtName_2" name="txtName_2" placeholder="Tu nombre completo" required="" type="text" value="" />                <span class="error" style="display: none"></span>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Apellido:</label>
+<input class="form-control" id="txtApellido_2" name="txtApellido_2" placeholder="Tu/s apellido/s completo/s" required="" type="text" value="" />                <span class="error" style="display: none"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <div class="row">
+                    <div class="col-xs-5 pr">
+                        <label>Tipo de documento:</label>
+                        <select name="ddlDocumentTypeP_2" id="ddlDocumentTypeP_2" class="form-control">
+                                <option value="1" data-placeholder="N&#250;meros y letras" data-validation="">
+                                    Pasaporte
+                                </option>
+                        </select>
+                    </div>
+                    <div class="col-xs-7 pl">
+                        <label>N&#250;mero:</label>
+                        <input class="form-control passengerDocNro" id="txtNroDocumentoP_2" name="txtNroDocumentoP_2" placeholder="Solo números Ej: 123456" required="" type="text" value="" />
+                        <span class="error" style="display: none"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <label>Fecha de nacimiento:</label>
+                <div class="row">
+                    <div class="col-xs-3 pr">
+                        <input class="form-control" id="txtDias_2" max="31" maxlength="2" min="1" name="txtDias_2" placeholder="DD" type="number" value="" width="200px" />
+                    </div>
+                    <div class="col-xs-5 pr pl">
+                        <select class="form-control" id="ddlMeses_2" name="ddlMeses_2"><option selected="selected" value="01">enero</option>
+<option value="02">febrero</option>
+<option value="03">marzo</option>
+<option value="04">abril</option>
+<option value="05">mayo</option>
+<option value="06">junio</option>
+<option value="07">julio</option>
+<option value="08">agosto</option>
+<option value="09">septiembre</option>
+<option value="10">octubre</option>
+<option value="11">noviembre</option>
+<option value="12">diciembre</option>
+</select>
+                    </div>
+                    <div class="col-xs-4 pl">
+                        <input class="form-control" id="txtAnios_2" max="2019" maxlength="4" min="1889" name="txtAnios_2" placeholder="YYYY" type="number" value="" width="300px" />
+                    </div>
+                </div>
+            </div>
+            <div id="showMenorBr" class="col-xs-12 col-md-12" style="margin-top: 5px; visibility: hidden;">
+                <p style="font-size: 12px!important;">Se o passageiro for menor de idade e n&#227;o possuir CPF, por favor informar o CPF do Respons&#225;vel.</p>
+            </div>
+        </div>
+        
+
+
+
+
+
+        
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <label>Email <small>(donde recibir&#225;s la informaci&#243;n del viaje)</small></label>
+                <input Id="emailP_2" class="form-control" equalValue="confemailP_2" id="emailP_2" name="emailP_2" placeholder="Tu dirección de email" required="" type="email" value="" />
+                <span class="error" style="display: none"></span>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <label>Confirma tu email:</label>
+                <input Id="confemailP_2" class="form-control" equalValue="emailP_2" id="confemailP_2" name="confemailP_2" placeholder="Tu dirección de email" required="" type="email" value="" />
+                <span class="error" style="display: none"></span>
+            </div>
+        </div>
+        
+
+       
+            
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6" style="">
+                            <label>Tipo</label>
+                            <select class="form-control" id="tipoTelefono_2" name="tipoTelefono_2">
+                                <option> Celular</option>
+                                <option> Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="col-xs-12 col-md-6" style="">
+                            <label>Pa&#237;s</label>
+                          
+                            <select name="dllPais_2" id="dllPais_2" class="form-control">
+                                    <option value="93" >
+                                        Afghanistan (+93)
+                                    </option>
+                                    <option value="355" >
+                                        Albania (+355)
+                                    </option>
+                                    <option value="49" >
+                                        Alemania (+49)
+                                    </option>
+                                    <option value="213" >
+                                        Algeria (+213)
+                                    </option>
+                                    <option value="376" >
+                                        Andorra (+376)
+                                    </option>
+                                    <option value="244" >
+                                        Angola (+244)
+                                    </option>
+                                    <option value="1" >
+                                        Anguilla_ES (+1)
+                                    </option>
+                                    <option value="1" >
+                                        Antigua y Barbuda (+1)
+                                    </option>
+                                    <option value="599" >
+                                        Antillas Holandesas (+599)
+                                    </option>
+                                    <option value="966" >
+                                        Arabia Saudita (+966)
+                                    </option>
+                                    <option value="54" >
+                                        Argentina (+54)
+                                    </option>
+                                    <option value="374" >
+                                        Armenia (+374)
+                                    </option>
+                                    <option value="297" >
+                                        Aruba (+297)
+                                    </option>
+                                    <option value="247" >
+                                        Ascension Island (+247)
+                                    </option>
+                                    <option value="61" >
+                                        Australia (+61)
+                                    </option>
+                                    <option value="43" >
+                                        Austria (+43)
+                                    </option>
+                                    <option value="994" >
+                                        Azerbaiy&#225;n (+994)
+                                    </option>
+                                    <option value="1" >
+                                        Bahamas (+1)
+                                    </option>
+                                    <option value="973" >
+                                        Bahrain (+973)
+                                    </option>
+                                    <option value="880" >
+                                        Bangladesh (+880)
+                                    </option>
+                                    <option value="1" >
+                                        Barbados (+1)
+                                    </option>
+                                    <option value="375" >
+                                        Belarus (+375)
+                                    </option>
+                                    <option value="32" >
+                                        B&#233;lgica (+32)
+                                    </option>
+                                    <option value="501" >
+                                        Belice (+501)
+                                    </option>
+                                    <option value="229" >
+                                        Benin (+229)
+                                    </option>
+                                    <option value="1" >
+                                        Bermuda (+1)
+                                    </option>
+                                    <option value="975" >
+                                        Bhutan (+975)
+                                    </option>
+                                    <option value="591" >
+                                        Bolivia (+591)
+                                    </option>
+                                    <option value="5997" >
+                                        Bonaire (+5997)
+                                    </option>
+                                    <option value="387" >
+                                        Bosnia and Herzegowina (+387)
+                                    </option>
+                                    <option value="267" >
+                                        Botswana (+267)
+                                    </option>
+                                    <option value="0" >
+                                        Bouvet Island (+0)
+                                    </option>
+                                    <option value="55" >
+                                        Brasil (+55)
+                                    </option>
+                                    <option value="246" >
+                                        British Ocean Territory (+246)
+                                    </option>
+                                    <option value="673" >
+                                        Brunei (+673)
+                                    </option>
+                                    <option value="359" >
+                                        Bulgaria (+359)
+                                    </option>
+                                    <option value="226" >
+                                        Burkina Faso (+226)
+                                    </option>
+                                    <option value="257" >
+                                        Burundi (+257)
+                                    </option>
+                                    <option value="855" >
+                                        Cambodia (+855)
+                                    </option>
+                                    <option value="237" >
+                                        Camer&#250;n (+237)
+                                    </option>
+                                    <option value="1" >
+                                        Canad&#225; (+1)
+                                    </option>
+                                    <option value="235" >
+                                        Chad (+235)
+                                    </option>
+                                    <option value="56" >
+                                        Chile (+56)
+                                    </option>
+                                    <option value="86" >
+                                        China (+86)
+                                    </option>
+                                    <option value="357" >
+                                        Chipre (+357)
+                                    </option>
+                                    <option value="6189162" >
+                                        Cocos (Keeling) Islands (+6189162)
+                                    </option>
+                                    <option value="57" >
+                                        Colombia (+57)
+                                    </option>
+                                    <option value="269" >
+                                        Comoros (+269)
+                                    </option>
+                                    <option value="242" >
+                                        Congo (+242)
+                                    </option>
+                                    <option value="243" >
+                                        Congo, Rep&#250;blica del (+243)
+                                    </option>
+                                    <option value="682" >
+                                        Cook Islands (+682)
+                                    </option>
+                                    <option value="850" >
+                                        Corea del Norte (+850)
+                                    </option>
+                                    <option value="82" >
+                                        Corea del Sur (+82)
+                                    </option>
+                                    <option value="506" >
+                                        Costa Rica (+506)
+                                    </option>
+                                    <option value="225" >
+                                        Cote d Ivoire (+225)
+                                    </option>
+                                    <option value="385" >
+                                        Croacia (+385)
+                                    </option>
+                                    <option value="53" >
+                                        Cuba (+53)
+                                    </option>
+                                    <option value="5999" >
+                                        Curazao (+5999)
+                                    </option>
+                                    <option value="0" >
+                                        Demo Country (+0)
+                                    </option>
+                                    <option value="45" >
+                                        Dinamarca (+45)
+                                    </option>
+                                    <option value="253" >
+                                        Djibouti (+253)
+                                    </option>
+                                    <option value="1" >
+                                        Dominica (+1)
+                                    </option>
+                                    <option value="670" >
+                                        East Timor (+670)
+                                    </option>
+                                    <option value="593" >
+                                        Ecuador (+593)
+                                    </option>
+                                    <option value="20" >
+                                        Egipto (+20)
+                                    </option>
+                                    <option value="503" >
+                                        El Salvador (+503)
+                                    </option>
+                                    <option value="971" >
+                                        Emiratos &#193;rabes Unidos (+971)
+                                    </option>
+                                    <option value="240" >
+                                        Equatorial Guinea (+240)
+                                    </option>
+                                    <option value="291" >
+                                        Eritrea (+291)
+                                    </option>
+                                    <option value="421" >
+                                        Eslovaquia (+421)
+                                    </option>
+                                    <option value="386" >
+                                        Eslovenia (+386)
+                                    </option>
+                                    <option value="34" >
+                                        Espa&#241;a (+34)
+                                    </option>
+                                    <option value="1" >
+                                        Estados unidos (+1)
+                                    </option>
+                                    <option value="372" >
+                                        Estonia (+372)
+                                    </option>
+                                    <option value="251" >
+                                        Etiop&#237;a (+251)
+                                    </option>
+                                    <option value="500" >
+                                        Falkland Islands (Malvinas) (+500)
+                                    </option>
+                                    <option value="679" >
+                                        Fiji (+679)
+                                    </option>
+                                    <option value="63" >
+                                        Filipinas (+63)
+                                    </option>
+                                    <option value="358" >
+                                        Finlandia (+358)
+                                    </option>
+                                    <option value="33" >
+                                        Francia (+33)
+                                    </option>
+                                    <option value="689" >
+                                        French Polynesia (+689)
+                                    </option>
+                                    <option value="262" >
+                                        French Southern Territories (+262)
+                                    </option>
+                                    <option value="241" >
+                                        Gabon (+241)
+                                    </option>
+                                    <option value="220" >
+                                        Gambia (+220)
+                                    </option>
+                                    <option value="995" >
+                                        Georgia (+995)
+                                    </option>
+                                    <option value="233" >
+                                        Ghana (+233)
+                                    </option>
+                                    <option value="350" >
+                                        Gibraltar (+350)
+                                    </option>
+                                    <option value="30" >
+                                        Grecia (+30)
+                                    </option>
+                                    <option value="299" >
+                                        Greenland (+299)
+                                    </option>
+                                    <option value="1" >
+                                        Grenada (+1)
+                                    </option>
+                                    <option value="590" >
+                                        Guadeloupe (+590)
+                                    </option>
+                                    <option value="1" >
+                                        Guam (+1)
+                                    </option>
+                                    <option value="502" >
+                                        Guatemala (+502)
+                                    </option>
+                                    <option value="594" >
+                                        Guayana Francesa (+594)
+                                    </option>
+                                    <option value="224" >
+                                        Guinea (+224)
+                                    </option>
+                                    <option value="245" >
+                                        Guinea-Bissau (+245)
+                                    </option>
+                                    <option value="592" >
+                                        Guyana (+592)
+                                    </option>
+                                    <option value="509" >
+                                        Hait&#237; (+509)
+                                    </option>
+                                    <option value="672" >
+                                        Heard and Mc Donald Islands (+672)
+                                    </option>
+                                    <option value="379" >
+                                        Holy See (Vatican City State) (+379)
+                                    </option>
+                                    <option value="504" >
+                                        Honduras (+504)
+                                    </option>
+                                    <option value="852" >
+                                        Hong Kong (+852)
+                                    </option>
+                                    <option value="36" >
+                                        Hungr&#237;a (+36)
+                                    </option>
+                                    <option value="91" >
+                                        India (+91)
+                                    </option>
+                                    <option value="62" >
+                                        Indonesia (+62)
+                                    </option>
+                                    <option value="44" >
+                                        Inglaterra (+44)
+                                    </option>
+                                    <option value="98" >
+                                        Ir&#225;n, Rep&#250;blica Isl&#225;mica de (+98)
+                                    </option>
+                                    <option value="964" >
+                                        Iraq (+964)
+                                    </option>
+                                    <option value="353" >
+                                        Irlanda (+353)
+                                    </option>
+                                    <option value="247" >
+                                        Irlanda del Norte (+247)
+                                    </option>
+                                    <option value="6189164" >
+                                        Isla de Navidad (+6189164)
+                                    </option>
+                                    <option value="354" >
+                                        islandia (+354)
+                                    </option>
+                                    <option value="1" >
+                                        Islas Caim&#225;n (+1)
+                                    </option>
+                                    <option value="298" >
+                                        Islas Faroe (+298)
+                                    </option>
+                                    <option value="1" >
+                                        Islas Turcas y Caicos (+1)
+                                    </option>
+                                    <option value="1" >
+                                        Islas V&#237;rgenes (Brit&#225;nicas) (+1)
+                                    </option>
+                                    <option value="1" >
+                                        Islas V&#237;rgenes (EE.UU.) (+1)
+                                    </option>
+                                    <option value="972" >
+                                        Israel (+972)
+                                    </option>
+                                    <option value="39" >
+                                        Italia (+39)
+                                    </option>
+                                    <option value="1" >
+                                        Jamaica (+1)
+                                    </option>
+                                    <option value="81" >
+                                        Jap&#243;n (+81)
+                                    </option>
+                                    <option value="962" >
+                                        Jordan (+962)
+                                    </option>
+                                    <option value="7" >
+                                        Kazajst&#225;n (+7)
+                                    </option>
+                                    <option value="254" >
+                                        Kenia (+254)
+                                    </option>
+                                    <option value="686" >
+                                        Kiribati (+686)
+                                    </option>
+                                    <option value="965" >
+                                        Kuwait (+965)
+                                    </option>
+                                    <option value="996" >
+                                        Kyrgyzstan (+996)
+                                    </option>
+                                    <option value="856" >
+                                        Laos (+856)
+                                    </option>
+                                    <option value="371" >
+                                        Latvia (+371)
+                                    </option>
+                                    <option value="961" >
+                                        Lebanon (+961)
+                                    </option>
+                                    <option value="266" >
+                                        Lesotho (+266)
+                                    </option>
+                                    <option value="231" >
+                                        Liberia (+231)
+                                    </option>
+                                    <option value="218" >
+                                        Libia (+218)
+                                    </option>
+                                    <option value="423" >
+                                        Liechtenstein (+423)
+                                    </option>
+                                    <option value="370" >
+                                        Lituania (+370)
+                                    </option>
+                                    <option value="352" >
+                                        Luxenburgo (+352)
+                                    </option>
+                                    <option value="853" >
+                                        Macau (+853)
+                                    </option>
+                                    <option value="389" >
+                                        Macedonia (+389)
+                                    </option>
+                                    <option value="261" >
+                                        Madagascar (+261)
+                                    </option>
+                                    <option value="60" >
+                                        Malasia (+60)
+                                    </option>
+                                    <option value="265" >
+                                        Malawi (+265)
+                                    </option>
+                                    <option value="960" >
+                                        Maldivas (+960)
+                                    </option>
+                                    <option value="223" >
+                                        Mali (+223)
+                                    </option>
+                                    <option value="356" >
+                                        Malta (+356)
+                                    </option>
+                                    <option value="212" >
+                                        Marruecos (+212)
+                                    </option>
+                                    <option value="692" >
+                                        Marshall Islands (+692)
+                                    </option>
+                                    <option value="596" >
+                                        Martinique (+596)
+                                    </option>
+                                    <option value="222" >
+                                        Mauritania (+222)
+                                    </option>
+                                    <option value="230" >
+                                        Mauritius (+230)
+                                    </option>
+                                    <option value="262" >
+                                        Mayotte (+262)
+                                    </option>
+                                    <option value="52" >
+                                        M&#233;xico (+52)
+                                    </option>
+                                    <option value="691" >
+                                        Micronesia (+691)
+                                    </option>
+                                    <option value="373" >
+                                        Moldova, Republic of (+373)
+                                    </option>
+                                    <option value="377" >
+                                        Monaco (+377)
+                                    </option>
+                                    <option value="976" >
+                                        Mongolia (+976)
+                                    </option>
+                                    <option value="382" >
+                                        Montenegro (+382)
+                                    </option>
+                                    <option value="1" >
+                                        Montserrat (+1)
+                                    </option>
+                                    <option value="258" >
+                                        Mozambique (+258)
+                                    </option>
+                                    <option value="95" >
+                                        Myanmar (+95)
+                                    </option>
+                                    <option value="264" >
+                                        Namibia (+264)
+                                    </option>
+                                    <option value="674" >
+                                        Nauru (+674)
+                                    </option>
+                                    <option value="977" >
+                                        Nepal (+977)
+                                    </option>
+                                    <option value="505" >
+                                        Nicaragua (+505)
+                                    </option>
+                                    <option value="227" >
+                                        Niger (+227)
+                                    </option>
+                                    <option value="234" >
+                                        Nigeria (+234)
+                                    </option>
+                                    <option value="247" >
+                                        Niue (+247)
+                                    </option>
+                                    <option value="672" >
+                                        Norfolk Island (+672)
+                                    </option>
+                                    <option value="1" >
+                                        Northern Mariana Islands (+1)
+                                    </option>
+                                    <option value="47" >
+                                        Noruega (+47)
+                                    </option>
+                                    <option value="687" >
+                                        Nueva Caledonia (+687)
+                                    </option>
+                                    <option value="64" >
+                                        Nueva Zelanda (+64)
+                                    </option>
+                                    <option value="0" >
+                                        Otros (+0)
+                                    </option>
+                                    <option value="31" >
+                                        Pa&#237;ses Bajos (+31)
+                                    </option>
+                                    <option value="92" >
+                                        Pakistan (+92)
+                                    </option>
+                                    <option value="680" >
+                                        Palau (+680)
+                                    </option>
+                                    <option value="970" >
+                                        Palestinian Territory (+970)
+                                    </option>
+                                    <option value="507" >
+                                        Panam&#225; (+507)
+                                    </option>
+                                    <option value="675" >
+                                        Pap&#250;a Nueva Guinea (+675)
+                                    </option>
+                                    <option value="595" >
+                                        Paraguay (+595)
+                                    </option>
+                                    <option value="51" >
+                                        Per&#250; (+51)
+                                    </option>
+                                    <option value="64" >
+                                        Pitcairn (+64)
+                                    </option>
+                                    <option value="48" >
+                                        Polonia (+48)
+                                    </option>
+                                    <option value="351" >
+                                        Portugal (+351)
+                                    </option>
+                                    <option value="1" >
+                                        Puerto Rico (+1)
+                                    </option>
+                                    <option value="0" >
+                                        Pullmantur (+0)
+                                    </option>
+                                    <option value="974" >
+                                        Qatar (+974)
+                                    </option>
+                                    <option value="44" >
+                                        Reino Unido (+44)
+                                    </option>
+                                    <option value="963" >
+                                        Rep&#250;blica &#193;rabe Siria (+963)
+                                    </option>
+                                    <option value="236" >
+                                        Rep&#250;blica Centroafricana (+236)
+                                    </option>
+                                    <option value="420" >
+                                        Rep&#250;blica Checa (+420)
+                                    </option>
+                                    <option value="1" >
+                                        Rep&#250;blica Dominicana (+1)
+                                    </option>
+                                    <option value="0" >
+                                        Royal Caribbean (+0)
+                                    </option>
+                                    <option value="40" >
+                                        Rumania (+40)
+                                    </option>
+                                    <option value="7" >
+                                        Rusia (+7)
+                                    </option>
+                                    <option value="250" >
+                                        Rwanda (+250)
+                                    </option>
+                                    <option value="1" >
+                                        Saint Kitts and Nevis (+1)
+                                    </option>
+                                    <option value="508" >
+                                        Saint Pierre and Miquelon (+508)
+                                    </option>
+                                    <option value="1" >
+                                        Saint Vincent &amp; Gren. (+1)
+                                    </option>
+                                    <option value="685" >
+                                        Samoa (+685)
+                                    </option>
+                                    <option value="1" >
+                                        Samoa Americana (+1)
+                                    </option>
+                                    <option value="378" >
+                                        San Marino (+378)
+                                    </option>
+                                    <option value="590" >
+                                        San Mart&#237;n (+590)
+                                    </option>
+                                    <option value="290" >
+                                        Santa Elena (+290)
+                                    </option>
+                                    <option value="1" >
+                                        Santa Luc&#237;a (+1)
+                                    </option>
+                                    <option value="239" >
+                                        Sao Tome and Principe (+239)
+                                    </option>
+                                    <option value="221" >
+                                        Senegal (+221)
+                                    </option>
+                                    <option value="381" >
+                                        Serbia (+381)
+                                    </option>
+                                    <option value="248" >
+                                        Seychelles (+248)
+                                    </option>
+                                    <option value="232" >
+                                        Sierra Leone (+232)
+                                    </option>
+                                    <option value="65" >
+                                        Singapur (+65)
+                                    </option>
+                                    <option value="677" >
+                                        Solomon Islands (+677)
+                                    </option>
+                                    <option value="252" >
+                                        Somalia (+252)
+                                    </option>
+                                    <option value="94" >
+                                        Sri Lanka (+94)
+                                    </option>
+                                    <option value="27" >
+                                        Sud&#225;frica (+27)
+                                    </option>
+                                    <option value="249" >
+                                        Sudan (+249)
+                                    </option>
+                                    <option value="46" >
+                                        Suecia (+46)
+                                    </option>
+                                    <option value="41" >
+                                        Suiza (+41)
+                                    </option>
+                                    <option value="968" >
+                                        Sultanate of Oman (+968)
+                                    </option>
+                                    <option value="597" >
+                                        Suriname (+597)
+                                    </option>
+                                    <option value="47" >
+                                        Svalbard and Jan Mayen Islands (+47)
+                                    </option>
+                                    <option value="268" >
+                                        Swaziland (+268)
+                                    </option>
+                                    <option value="247" >
+                                        Tahiti (+247)
+                                    </option>
+                                    <option value="66" >
+                                        Tailandia (+66)
+                                    </option>
+                                    <option value="886" >
+                                        Taiw&#225;n, Provincia de China (+886)
+                                    </option>
+                                    <option value="992" >
+                                        Tajikistan (+992)
+                                    </option>
+                                    <option value="255" >
+                                        Tanzania, Rep&#250;blica Unida de (+255)
+                                    </option>
+                                    <option value="670" >
+                                        Timor-Leste (+670)
+                                    </option>
+                                    <option value="228" >
+                                        Togo (+228)
+                                    </option>
+                                    <option value="690" >
+                                        Tokelau (+690)
+                                    </option>
+                                    <option value="676" >
+                                        Tonga (+676)
+                                    </option>
+                                    <option value="1" >
+                                        Trinidad y Tobago (+1)
+                                    </option>
+                                    <option value="247" >
+                                        Tristan da Cunha (+247)
+                                    </option>
+                                    <option value="216" >
+                                        T&#250;nez (+216)
+                                    </option>
+                                    <option value="993" >
+                                        Turkmenistan (+993)
+                                    </option>
+                                    <option value="90" >
+                                        Turqu&#237;a (+90)
+                                    </option>
+                                    <option value="688" >
+                                        Tuvalu (+688)
+                                    </option>
+                                    <option value="380" >
+                                        Ucrania (+380)
+                                    </option>
+                                    <option value="256" >
+                                        Uganda (+256)
+                                    </option>
+                                    <option value="598" >
+                                        Uruguay (+598)
+                                    </option>
+                                    <option value="998" >
+                                        Uzbekistan (+998)
+                                    </option>
+                                    <option value="678" >
+                                        Vanuatu (+678)
+                                    </option>
+                                    <option value="58" selected>
+                                        Venezuela (+58)
+                                    </option>
+                                    <option value="84" >
+                                        Vietnam (+84)
+                                    </option>
+                                    <option value="247" >
+                                        Wake Island (+247)
+                                    </option>
+                                    <option value="247" >
+                                        Wales (+247)
+                                    </option>
+                                    <option value="681" >
+                                        Wallis and Futuna Islands (+681)
+                                    </option>
+                                    <option value="212" >
+                                        Western Sahara (+212)
+                                    </option>
+                                    <option value="0" >
+                                        WWW (+0)
+                                    </option>
+                                    <option value="967" >
+                                        Yemen (+967)
+                                    </option>
+                                    <option value="260" >
+                                        Zambia (+260)
+                                    </option>
+                                    <option value="247" >
+                                        Zanzibar (+247)
+                                    </option>
+                                    <option value="263" >
+                                        Zimbabwe (+263)
+                                    </option>
+                            </select>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-8">
+                            <label>N&#250;mero</label>
+                            <input Id="txtNumTelefono_2" class="form-control" id="txtNumTelefono_2" name="txtNumTelefono_2" placeholder="Ingresá un número de teléfono" required="" type="number" value="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        <div class="row">
+          
+        </div>
+
+    </div>
+
+
+<script>
+    $(document).ready(function () {
+        $("#ddlDocumentTypeP_2").ready(function () {
+            var txtP = document.getElementById("ddlDocumentTypeP_2");
+            $("#txtNroDocumentoP_2").attr("placeholder", txtP.selectedOptions[0].dataset.placeholder);
+            if (window.location.toString().indexOf("br") > 0 && document.getElementById("ddlDocumentTypeP_2").selectedIndex == 0) {
+                for(var i=0; i<showMenorBr.length;i++){
+                    showMenorBr[i].style.visibility = "visible";
+                }
+            }
+            else {
+                for(var i=0; i<showMenorBr.length;i++){
+                    showMenorBr[i].style.visibility = "hidden";
+                }
+            }
+        });
+        $("#ddlDocumentTypeP_2").change(function () {
+            var txtP = document.getElementById("ddlDocumentTypeP_2");
+            $("#txtNroDocumentoP_2").attr("placeholder", txtP.selectedOptions[0].dataset.placeholder);
+            if (window.location.toString().indexOf("br") > 0 && document.getElementById("ddlDocumentTypeP_2").selectedIndex == 0) {
+                for(var i=0; i<showMenorBr.length;i++){
+                    showMenorBr[i].style.visibility = "visible";
+                }
+            }
+            else {
+                for(var i=0; i<showMenorBr.length;i++){
+                    showMenorBr[i].style.visibility = "hidden";
+                }
+            }
+        });
+    });
+</script>
+
+    <div class="datos-pasajero" nropax=3>
+        <h3>Pasajero 3</h3>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <label>Nombre:</label>
+<input class="form-control" id="txtName_3" name="txtName_3" placeholder="Tu nombre completo" required="" type="text" value="" />                <span class="error" style="display: none"></span>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Apellido:</label>
+<input class="form-control" id="txtApellido_3" name="txtApellido_3" placeholder="Tu/s apellido/s completo/s" required="" type="text" value="" />                <span class="error" style="display: none"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <div class="row">
+                    <div class="col-xs-5 pr">
+                        <label>Tipo de documento:</label>
+                        <select name="ddlDocumentTypeP_3" id="ddlDocumentTypeP_3" class="form-control">
+                                <option value="1" data-placeholder="N&#250;meros y letras" data-validation="">
+                                    Pasaporte
+                                </option>
+                        </select>
+                    </div>
+                    <div class="col-xs-7 pl">
+                        <label>N&#250;mero:</label>
+                        <input class="form-control passengerDocNro" id="txtNroDocumentoP_3" name="txtNroDocumentoP_3" placeholder="Solo números Ej: 123456" required="" type="text" value="" />
+                        <span class="error" style="display: none"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <label>Fecha de nacimiento:</label>
+                <div class="row">
+                    <div class="col-xs-3 pr">
+                        <input class="form-control" id="txtDias_3" max="31" maxlength="2" min="1" name="txtDias_3" placeholder="DD" type="number" value="" width="200px" />
+                    </div>
+                    <div class="col-xs-5 pr pl">
+                        <select class="form-control" id="ddlMeses_3" name="ddlMeses_3"><option selected="selected" value="01">enero</option>
+<option value="02">febrero</option>
+<option value="03">marzo</option>
+<option value="04">abril</option>
+<option value="05">mayo</option>
+<option value="06">junio</option>
+<option value="07">julio</option>
+<option value="08">agosto</option>
+<option value="09">septiembre</option>
+<option value="10">octubre</option>
+<option value="11">noviembre</option>
+<option value="12">diciembre</option>
+</select>
+                    </div>
+                    <div class="col-xs-4 pl">
+                        <input class="form-control" id="txtAnios_3" max="2019" maxlength="4" min="1889" name="txtAnios_3" placeholder="YYYY" type="number" value="" width="300px" />
+                    </div>
+                </div>
+            </div>
+            <div id="showMenorBr" class="col-xs-12 col-md-12" style="margin-top: 5px; visibility: hidden;">
+                <p style="font-size: 12px!important;">Se o passageiro for menor de idade e n&#227;o possuir CPF, por favor informar o CPF do Respons&#225;vel.</p>
+            </div>
+        </div>
+        
+
+
+
+
+
+        
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <label>Email <small>(donde recibir&#225;s la informaci&#243;n del viaje)</small></label>
+                <input Id="emailP_3" class="form-control" equalValue="confemailP_3" id="emailP_3" name="emailP_3" placeholder="Tu dirección de email" required="" type="email" value="" />
+                <span class="error" style="display: none"></span>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <label>Confirma tu email:</label>
+                <input Id="confemailP_3" class="form-control" equalValue="emailP_3" id="confemailP_3" name="confemailP_3" placeholder="Tu dirección de email" required="" type="email" value="" />
+                <span class="error" style="display: none"></span>
+            </div>
+        </div>
+        
+
+       
+            
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6" style="">
+                            <label>Tipo</label>
+                            <select class="form-control" id="tipoTelefono_3" name="tipoTelefono_3">
+                                <option> Celular</option>
+                                <option> Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="col-xs-12 col-md-6" style="">
+                            <label>Pa&#237;s</label>
+                          
+                            <select name="dllPais_3" id="dllPais_3" class="form-control">
+                                    <option value="93" >
+                                        Afghanistan (+93)
+                                    </option>
+                                    <option value="355" >
+                                        Albania (+355)
+                                    </option>
+                                    <option value="49" >
+                                        Alemania (+49)
+                                    </option>
+                                    <option value="213" >
+                                        Algeria (+213)
+                                    </option>
+                                    <option value="376" >
+                                        Andorra (+376)
+                                    </option>
+                                    <option value="244" >
+                                        Angola (+244)
+                                    </option>
+                                    <option value="1" >
+                                        Anguilla_ES (+1)
+                                    </option>
+                                    <option value="1" >
+                                        Antigua y Barbuda (+1)
+                                    </option>
+                                    <option value="599" >
+                                        Antillas Holandesas (+599)
+                                    </option>
+                                    <option value="966" >
+                                        Arabia Saudita (+966)
+                                    </option>
+                                    <option value="54" >
+                                        Argentina (+54)
+                                    </option>
+                                    <option value="374" >
+                                        Armenia (+374)
+                                    </option>
+                                    <option value="297" >
+                                        Aruba (+297)
+                                    </option>
+                                    <option value="247" >
+                                        Ascension Island (+247)
+                                    </option>
+                                    <option value="61" >
+                                        Australia (+61)
+                                    </option>
+                                    <option value="43" >
+                                        Austria (+43)
+                                    </option>
+                                    <option value="994" >
+                                        Azerbaiy&#225;n (+994)
+                                    </option>
+                                    <option value="1" >
+                                        Bahamas (+1)
+                                    </option>
+                                    <option value="973" >
+                                        Bahrain (+973)
+                                    </option>
+                                    <option value="880" >
+                                        Bangladesh (+880)
+                                    </option>
+                                    <option value="1" >
+                                        Barbados (+1)
+                                    </option>
+                                    <option value="375" >
+                                        Belarus (+375)
+                                    </option>
+                                    <option value="32" >
+                                        B&#233;lgica (+32)
+                                    </option>
+                                    <option value="501" >
+                                        Belice (+501)
+                                    </option>
+                                    <option value="229" >
+                                        Benin (+229)
+                                    </option>
+                                    <option value="1" >
+                                        Bermuda (+1)
+                                    </option>
+                                    <option value="975" >
+                                        Bhutan (+975)
+                                    </option>
+                                    <option value="591" >
+                                        Bolivia (+591)
+                                    </option>
+                                    <option value="5997" >
+                                        Bonaire (+5997)
+                                    </option>
+                                    <option value="387" >
+                                        Bosnia and Herzegowina (+387)
+                                    </option>
+                                    <option value="267" >
+                                        Botswana (+267)
+                                    </option>
+                                    <option value="0" >
+                                        Bouvet Island (+0)
+                                    </option>
+                                    <option value="55" >
+                                        Brasil (+55)
+                                    </option>
+                                    <option value="246" >
+                                        British Ocean Territory (+246)
+                                    </option>
+                                    <option value="673" >
+                                        Brunei (+673)
+                                    </option>
+                                    <option value="359" >
+                                        Bulgaria (+359)
+                                    </option>
+                                    <option value="226" >
+                                        Burkina Faso (+226)
+                                    </option>
+                                    <option value="257" >
+                                        Burundi (+257)
+                                    </option>
+                                    <option value="855" >
+                                        Cambodia (+855)
+                                    </option>
+                                    <option value="237" >
+                                        Camer&#250;n (+237)
+                                    </option>
+                                    <option value="1" >
+                                        Canad&#225; (+1)
+                                    </option>
+                                    <option value="235" >
+                                        Chad (+235)
+                                    </option>
+                                    <option value="56" >
+                                        Chile (+56)
+                                    </option>
+                                    <option value="86" >
+                                        China (+86)
+                                    </option>
+                                    <option value="357" >
+                                        Chipre (+357)
+                                    </option>
+                                    <option value="6189162" >
+                                        Cocos (Keeling) Islands (+6189162)
+                                    </option>
+                                    <option value="57" >
+                                        Colombia (+57)
+                                    </option>
+                                    <option value="269" >
+                                        Comoros (+269)
+                                    </option>
+                                    <option value="242" >
+                                        Congo (+242)
+                                    </option>
+                                    <option value="243" >
+                                        Congo, Rep&#250;blica del (+243)
+                                    </option>
+                                    <option value="682" >
+                                        Cook Islands (+682)
+                                    </option>
+                                    <option value="850" >
+                                        Corea del Norte (+850)
+                                    </option>
+                                    <option value="82" >
+                                        Corea del Sur (+82)
+                                    </option>
+                                    <option value="506" >
+                                        Costa Rica (+506)
+                                    </option>
+                                    <option value="225" >
+                                        Cote d Ivoire (+225)
+                                    </option>
+                                    <option value="385" >
+                                        Croacia (+385)
+                                    </option>
+                                    <option value="53" >
+                                        Cuba (+53)
+                                    </option>
+                                    <option value="5999" >
+                                        Curazao (+5999)
+                                    </option>
+                                    <option value="0" >
+                                        Demo Country (+0)
+                                    </option>
+                                    <option value="45" >
+                                        Dinamarca (+45)
+                                    </option>
+                                    <option value="253" >
+                                        Djibouti (+253)
+                                    </option>
+                                    <option value="1" >
+                                        Dominica (+1)
+                                    </option>
+                                    <option value="670" >
+                                        East Timor (+670)
+                                    </option>
+                                    <option value="593" >
+                                        Ecuador (+593)
+                                    </option>
+                                    <option value="20" >
+                                        Egipto (+20)
+                                    </option>
+                                    <option value="503" >
+                                        El Salvador (+503)
+                                    </option>
+                                    <option value="971" >
+                                        Emiratos &#193;rabes Unidos (+971)
+                                    </option>
+                                    <option value="240" >
+                                        Equatorial Guinea (+240)
+                                    </option>
+                                    <option value="291" >
+                                        Eritrea (+291)
+                                    </option>
+                                    <option value="421" >
+                                        Eslovaquia (+421)
+                                    </option>
+                                    <option value="386" >
+                                        Eslovenia (+386)
+                                    </option>
+                                    <option value="34" >
+                                        Espa&#241;a (+34)
+                                    </option>
+                                    <option value="1" >
+                                        Estados unidos (+1)
+                                    </option>
+                                    <option value="372" >
+                                        Estonia (+372)
+                                    </option>
+                                    <option value="251" >
+                                        Etiop&#237;a (+251)
+                                    </option>
+                                    <option value="500" >
+                                        Falkland Islands (Malvinas) (+500)
+                                    </option>
+                                    <option value="679" >
+                                        Fiji (+679)
+                                    </option>
+                                    <option value="63" >
+                                        Filipinas (+63)
+                                    </option>
+                                    <option value="358" >
+                                        Finlandia (+358)
+                                    </option>
+                                    <option value="33" >
+                                        Francia (+33)
+                                    </option>
+                                    <option value="689" >
+                                        French Polynesia (+689)
+                                    </option>
+                                    <option value="262" >
+                                        French Southern Territories (+262)
+                                    </option>
+                                    <option value="241" >
+                                        Gabon (+241)
+                                    </option>
+                                    <option value="220" >
+                                        Gambia (+220)
+                                    </option>
+                                    <option value="995" >
+                                        Georgia (+995)
+                                    </option>
+                                    <option value="233" >
+                                        Ghana (+233)
+                                    </option>
+                                    <option value="350" >
+                                        Gibraltar (+350)
+                                    </option>
+                                    <option value="30" >
+                                        Grecia (+30)
+                                    </option>
+                                    <option value="299" >
+                                        Greenland (+299)
+                                    </option>
+                                    <option value="1" >
+                                        Grenada (+1)
+                                    </option>
+                                    <option value="590" >
+                                        Guadeloupe (+590)
+                                    </option>
+                                    <option value="1" >
+                                        Guam (+1)
+                                    </option>
+                                    <option value="502" >
+                                        Guatemala (+502)
+                                    </option>
+                                    <option value="594" >
+                                        Guayana Francesa (+594)
+                                    </option>
+                                    <option value="224" >
+                                        Guinea (+224)
+                                    </option>
+                                    <option value="245" >
+                                        Guinea-Bissau (+245)
+                                    </option>
+                                    <option value="592" >
+                                        Guyana (+592)
+                                    </option>
+                                    <option value="509" >
+                                        Hait&#237; (+509)
+                                    </option>
+                                    <option value="672" >
+                                        Heard and Mc Donald Islands (+672)
+                                    </option>
+                                    <option value="379" >
+                                        Holy See (Vatican City State) (+379)
+                                    </option>
+                                    <option value="504" >
+                                        Honduras (+504)
+                                    </option>
+                                    <option value="852" >
+                                        Hong Kong (+852)
+                                    </option>
+                                    <option value="36" >
+                                        Hungr&#237;a (+36)
+                                    </option>
+                                    <option value="91" >
+                                        India (+91)
+                                    </option>
+                                    <option value="62" >
+                                        Indonesia (+62)
+                                    </option>
+                                    <option value="44" >
+                                        Inglaterra (+44)
+                                    </option>
+                                    <option value="98" >
+                                        Ir&#225;n, Rep&#250;blica Isl&#225;mica de (+98)
+                                    </option>
+                                    <option value="964" >
+                                        Iraq (+964)
+                                    </option>
+                                    <option value="353" >
+                                        Irlanda (+353)
+                                    </option>
+                                    <option value="247" >
+                                        Irlanda del Norte (+247)
+                                    </option>
+                                    <option value="6189164" >
+                                        Isla de Navidad (+6189164)
+                                    </option>
+                                    <option value="354" >
+                                        islandia (+354)
+                                    </option>
+                                    <option value="1" >
+                                        Islas Caim&#225;n (+1)
+                                    </option>
+                                    <option value="298" >
+                                        Islas Faroe (+298)
+                                    </option>
+                                    <option value="1" >
+                                        Islas Turcas y Caicos (+1)
+                                    </option>
+                                    <option value="1" >
+                                        Islas V&#237;rgenes (Brit&#225;nicas) (+1)
+                                    </option>
+                                    <option value="1" >
+                                        Islas V&#237;rgenes (EE.UU.) (+1)
+                                    </option>
+                                    <option value="972" >
+                                        Israel (+972)
+                                    </option>
+                                    <option value="39" >
+                                        Italia (+39)
+                                    </option>
+                                    <option value="1" >
+                                        Jamaica (+1)
+                                    </option>
+                                    <option value="81" >
+                                        Jap&#243;n (+81)
+                                    </option>
+                                    <option value="962" >
+                                        Jordan (+962)
+                                    </option>
+                                    <option value="7" >
+                                        Kazajst&#225;n (+7)
+                                    </option>
+                                    <option value="254" >
+                                        Kenia (+254)
+                                    </option>
+                                    <option value="686" >
+                                        Kiribati (+686)
+                                    </option>
+                                    <option value="965" >
+                                        Kuwait (+965)
+                                    </option>
+                                    <option value="996" >
+                                        Kyrgyzstan (+996)
+                                    </option>
+                                    <option value="856" >
+                                        Laos (+856)
+                                    </option>
+                                    <option value="371" >
+                                        Latvia (+371)
+                                    </option>
+                                    <option value="961" >
+                                        Lebanon (+961)
+                                    </option>
+                                    <option value="266" >
+                                        Lesotho (+266)
+                                    </option>
+                                    <option value="231" >
+                                        Liberia (+231)
+                                    </option>
+                                    <option value="218" >
+                                        Libia (+218)
+                                    </option>
+                                    <option value="423" >
+                                        Liechtenstein (+423)
+                                    </option>
+                                    <option value="370" >
+                                        Lituania (+370)
+                                    </option>
+                                    <option value="352" >
+                                        Luxenburgo (+352)
+                                    </option>
+                                    <option value="853" >
+                                        Macau (+853)
+                                    </option>
+                                    <option value="389" >
+                                        Macedonia (+389)
+                                    </option>
+                                    <option value="261" >
+                                        Madagascar (+261)
+                                    </option>
+                                    <option value="60" >
+                                        Malasia (+60)
+                                    </option>
+                                    <option value="265" >
+                                        Malawi (+265)
+                                    </option>
+                                    <option value="960" >
+                                        Maldivas (+960)
+                                    </option>
+                                    <option value="223" >
+                                        Mali (+223)
+                                    </option>
+                                    <option value="356" >
+                                        Malta (+356)
+                                    </option>
+                                    <option value="212" >
+                                        Marruecos (+212)
+                                    </option>
+                                    <option value="692" >
+                                        Marshall Islands (+692)
+                                    </option>
+                                    <option value="596" >
+                                        Martinique (+596)
+                                    </option>
+                                    <option value="222" >
+                                        Mauritania (+222)
+                                    </option>
+                                    <option value="230" >
+                                        Mauritius (+230)
+                                    </option>
+                                    <option value="262" >
+                                        Mayotte (+262)
+                                    </option>
+                                    <option value="52" >
+                                        M&#233;xico (+52)
+                                    </option>
+                                    <option value="691" >
+                                        Micronesia (+691)
+                                    </option>
+                                    <option value="373" >
+                                        Moldova, Republic of (+373)
+                                    </option>
+                                    <option value="377" >
+                                        Monaco (+377)
+                                    </option>
+                                    <option value="976" >
+                                        Mongolia (+976)
+                                    </option>
+                                    <option value="382" >
+                                        Montenegro (+382)
+                                    </option>
+                                    <option value="1" >
+                                        Montserrat (+1)
+                                    </option>
+                                    <option value="258" >
+                                        Mozambique (+258)
+                                    </option>
+                                    <option value="95" >
+                                        Myanmar (+95)
+                                    </option>
+                                    <option value="264" >
+                                        Namibia (+264)
+                                    </option>
+                                    <option value="674" >
+                                        Nauru (+674)
+                                    </option>
+                                    <option value="977" >
+                                        Nepal (+977)
+                                    </option>
+                                    <option value="505" >
+                                        Nicaragua (+505)
+                                    </option>
+                                    <option value="227" >
+                                        Niger (+227)
+                                    </option>
+                                    <option value="234" >
+                                        Nigeria (+234)
+                                    </option>
+                                    <option value="247" >
+                                        Niue (+247)
+                                    </option>
+                                    <option value="672" >
+                                        Norfolk Island (+672)
+                                    </option>
+                                    <option value="1" >
+                                        Northern Mariana Islands (+1)
+                                    </option>
+                                    <option value="47" >
+                                        Noruega (+47)
+                                    </option>
+                                    <option value="687" >
+                                        Nueva Caledonia (+687)
+                                    </option>
+                                    <option value="64" >
+                                        Nueva Zelanda (+64)
+                                    </option>
+                                    <option value="0" >
+                                        Otros (+0)
+                                    </option>
+                                    <option value="31" >
+                                        Pa&#237;ses Bajos (+31)
+                                    </option>
+                                    <option value="92" >
+                                        Pakistan (+92)
+                                    </option>
+                                    <option value="680" >
+                                        Palau (+680)
+                                    </option>
+                                    <option value="970" >
+                                        Palestinian Territory (+970)
+                                    </option>
+                                    <option value="507" >
+                                        Panam&#225; (+507)
+                                    </option>
+                                    <option value="675" >
+                                        Pap&#250;a Nueva Guinea (+675)
+                                    </option>
+                                    <option value="595" >
+                                        Paraguay (+595)
+                                    </option>
+                                    <option value="51" >
+                                        Per&#250; (+51)
+                                    </option>
+                                    <option value="64" >
+                                        Pitcairn (+64)
+                                    </option>
+                                    <option value="48" >
+                                        Polonia (+48)
+                                    </option>
+                                    <option value="351" >
+                                        Portugal (+351)
+                                    </option>
+                                    <option value="1" >
+                                        Puerto Rico (+1)
+                                    </option>
+                                    <option value="0" >
+                                        Pullmantur (+0)
+                                    </option>
+                                    <option value="974" >
+                                        Qatar (+974)
+                                    </option>
+                                    <option value="44" >
+                                        Reino Unido (+44)
+                                    </option>
+                                    <option value="963" >
+                                        Rep&#250;blica &#193;rabe Siria (+963)
+                                    </option>
+                                    <option value="236" >
+                                        Rep&#250;blica Centroafricana (+236)
+                                    </option>
+                                    <option value="420" >
+                                        Rep&#250;blica Checa (+420)
+                                    </option>
+                                    <option value="1" >
+                                        Rep&#250;blica Dominicana (+1)
+                                    </option>
+                                    <option value="0" >
+                                        Royal Caribbean (+0)
+                                    </option>
+                                    <option value="40" >
+                                        Rumania (+40)
+                                    </option>
+                                    <option value="7" >
+                                        Rusia (+7)
+                                    </option>
+                                    <option value="250" >
+                                        Rwanda (+250)
+                                    </option>
+                                    <option value="1" >
+                                        Saint Kitts and Nevis (+1)
+                                    </option>
+                                    <option value="508" >
+                                        Saint Pierre and Miquelon (+508)
+                                    </option>
+                                    <option value="1" >
+                                        Saint Vincent &amp; Gren. (+1)
+                                    </option>
+                                    <option value="685" >
+                                        Samoa (+685)
+                                    </option>
+                                    <option value="1" >
+                                        Samoa Americana (+1)
+                                    </option>
+                                    <option value="378" >
+                                        San Marino (+378)
+                                    </option>
+                                    <option value="590" >
+                                        San Mart&#237;n (+590)
+                                    </option>
+                                    <option value="290" >
+                                        Santa Elena (+290)
+                                    </option>
+                                    <option value="1" >
+                                        Santa Luc&#237;a (+1)
+                                    </option>
+                                    <option value="239" >
+                                        Sao Tome and Principe (+239)
+                                    </option>
+                                    <option value="221" >
+                                        Senegal (+221)
+                                    </option>
+                                    <option value="381" >
+                                        Serbia (+381)
+                                    </option>
+                                    <option value="248" >
+                                        Seychelles (+248)
+                                    </option>
+                                    <option value="232" >
+                                        Sierra Leone (+232)
+                                    </option>
+                                    <option value="65" >
+                                        Singapur (+65)
+                                    </option>
+                                    <option value="677" >
+                                        Solomon Islands (+677)
+                                    </option>
+                                    <option value="252" >
+                                        Somalia (+252)
+                                    </option>
+                                    <option value="94" >
+                                        Sri Lanka (+94)
+                                    </option>
+                                    <option value="27" >
+                                        Sud&#225;frica (+27)
+                                    </option>
+                                    <option value="249" >
+                                        Sudan (+249)
+                                    </option>
+                                    <option value="46" >
+                                        Suecia (+46)
+                                    </option>
+                                    <option value="41" >
+                                        Suiza (+41)
+                                    </option>
+                                    <option value="968" >
+                                        Sultanate of Oman (+968)
+                                    </option>
+                                    <option value="597" >
+                                        Suriname (+597)
+                                    </option>
+                                    <option value="47" >
+                                        Svalbard and Jan Mayen Islands (+47)
+                                    </option>
+                                    <option value="268" >
+                                        Swaziland (+268)
+                                    </option>
+                                    <option value="247" >
+                                        Tahiti (+247)
+                                    </option>
+                                    <option value="66" >
+                                        Tailandia (+66)
+                                    </option>
+                                    <option value="886" >
+                                        Taiw&#225;n, Provincia de China (+886)
+                                    </option>
+                                    <option value="992" >
+                                        Tajikistan (+992)
+                                    </option>
+                                    <option value="255" >
+                                        Tanzania, Rep&#250;blica Unida de (+255)
+                                    </option>
+                                    <option value="670" >
+                                        Timor-Leste (+670)
+                                    </option>
+                                    <option value="228" >
+                                        Togo (+228)
+                                    </option>
+                                    <option value="690" >
+                                        Tokelau (+690)
+                                    </option>
+                                    <option value="676" >
+                                        Tonga (+676)
+                                    </option>
+                                    <option value="1" >
+                                        Trinidad y Tobago (+1)
+                                    </option>
+                                    <option value="247" >
+                                        Tristan da Cunha (+247)
+                                    </option>
+                                    <option value="216" >
+                                        T&#250;nez (+216)
+                                    </option>
+                                    <option value="993" >
+                                        Turkmenistan (+993)
+                                    </option>
+                                    <option value="90" >
+                                        Turqu&#237;a (+90)
+                                    </option>
+                                    <option value="688" >
+                                        Tuvalu (+688)
+                                    </option>
+                                    <option value="380" >
+                                        Ucrania (+380)
+                                    </option>
+                                    <option value="256" >
+                                        Uganda (+256)
+                                    </option>
+                                    <option value="598" >
+                                        Uruguay (+598)
+                                    </option>
+                                    <option value="998" >
+                                        Uzbekistan (+998)
+                                    </option>
+                                    <option value="678" >
+                                        Vanuatu (+678)
+                                    </option>
+                                    <option value="58" selected>
+                                        Venezuela (+58)
+                                    </option>
+                                    <option value="84" >
+                                        Vietnam (+84)
+                                    </option>
+                                    <option value="247" >
+                                        Wake Island (+247)
+                                    </option>
+                                    <option value="247" >
+                                        Wales (+247)
+                                    </option>
+                                    <option value="681" >
+                                        Wallis and Futuna Islands (+681)
+                                    </option>
+                                    <option value="212" >
+                                        Western Sahara (+212)
+                                    </option>
+                                    <option value="0" >
+                                        WWW (+0)
+                                    </option>
+                                    <option value="967" >
+                                        Yemen (+967)
+                                    </option>
+                                    <option value="260" >
+                                        Zambia (+260)
+                                    </option>
+                                    <option value="247" >
+                                        Zanzibar (+247)
+                                    </option>
+                                    <option value="263" >
+                                        Zimbabwe (+263)
+                                    </option>
+                            </select>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-8">
+                            <label>N&#250;mero</label>
+                            <input Id="txtNumTelefono_3" class="form-control" id="txtNumTelefono_3" name="txtNumTelefono_3" placeholder="Ingresá un número de teléfono" required="" type="number" value="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        <div class="row">
+          
+        </div>
+
+    </div>
+
+
+<script>
+    $(document).ready(function () {
+        $("#ddlDocumentTypeP_3").ready(function () {
+            var txtP = document.getElementById("ddlDocumentTypeP_3");
+            $("#txtNroDocumentoP_3").attr("placeholder", txtP.selectedOptions[0].dataset.placeholder);
+            if (window.location.toString().indexOf("br") > 0 && document.getElementById("ddlDocumentTypeP_3").selectedIndex == 0) {
+                for(var i=0; i<showMenorBr.length;i++){
+                    showMenorBr[i].style.visibility = "visible";
+                }
+            }
+            else {
+                for(var i=0; i<showMenorBr.length;i++){
+                    showMenorBr[i].style.visibility = "hidden";
+                }
+            }
+        });
+        $("#ddlDocumentTypeP_3").change(function () {
+            var txtP = document.getElementById("ddlDocumentTypeP_3");
+            $("#txtNroDocumentoP_3").attr("placeholder", txtP.selectedOptions[0].dataset.placeholder);
+            if (window.location.toString().indexOf("br") > 0 && document.getElementById("ddlDocumentTypeP_3").selectedIndex == 0) {
+                for(var i=0; i<showMenorBr.length;i++){
+                    showMenorBr[i].style.visibility = "visible";
+                }
+            }
+            else {
+                for(var i=0; i<showMenorBr.length;i++){
+                    showMenorBr[i].style.visibility = "hidden";
+                }
+            }
+        });
+    });
+</script>
+
+    <div class="datos-pasajero" nropax=4>
+        <h3>Pasajero 4</h3>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <label>Nombre:</label>
+<input class="form-control" id="txtName_4" name="txtName_4" placeholder="Tu nombre completo" required="" type="text" value="" />                <span class="error" style="display: none"></span>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <label>Apellido:</label>
+<input class="form-control" id="txtApellido_4" name="txtApellido_4" placeholder="Tu/s apellido/s completo/s" required="" type="text" value="" />                <span class="error" style="display: none"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <div class="row">
+                    <div class="col-xs-5 pr">
+                        <label>Tipo de documento:</label>
+                        <select name="ddlDocumentTypeP_4" id="ddlDocumentTypeP_4" class="form-control">
+                                <option value="1" data-placeholder="N&#250;meros y letras" data-validation="">
+                                    Pasaporte
+                                </option>
+                        </select>
+                    </div>
+                    <div class="col-xs-7 pl">
+                        <label>N&#250;mero:</label>
+                        <input class="form-control passengerDocNro" id="txtNroDocumentoP_4" name="txtNroDocumentoP_4" placeholder="Solo números Ej: 123456" required="" type="text" value="" />
+                        <span class="error" style="display: none"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <label>Fecha de nacimiento:</label>
+                <div class="row">
+                    <div class="col-xs-3 pr">
+                        <input class="form-control" id="txtDias_4" max="31" maxlength="2" min="1" name="txtDias_4" placeholder="DD" type="number" value="" width="200px" />
+                    </div>
+                    <div class="col-xs-5 pr pl">
+                        <select class="form-control" id="ddlMeses_4" name="ddlMeses_4"><option selected="selected" value="01">enero</option>
+<option value="02">febrero</option>
+<option value="03">marzo</option>
+<option value="04">abril</option>
+<option value="05">mayo</option>
+<option value="06">junio</option>
+<option value="07">julio</option>
+<option value="08">agosto</option>
+<option value="09">septiembre</option>
+<option value="10">octubre</option>
+<option value="11">noviembre</option>
+<option value="12">diciembre</option>
+</select>
+                    </div>
+                    <div class="col-xs-4 pl">
+                        <input class="form-control" id="txtAnios_4" max="2019" maxlength="4" min="1889" name="txtAnios_4" placeholder="YYYY" type="number" value="" width="300px" />
+                    </div>
+                </div>
+            </div>
+            <div id="showMenorBr" class="col-xs-12 col-md-12" style="margin-top: 5px; visibility: hidden;">
+                <p style="font-size: 12px!important;">Se o passageiro for menor de idade e n&#227;o possuir CPF, por favor informar o CPF do Respons&#225;vel.</p>
+            </div>
+        </div>
+        
+
+
+
+
+
+        
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <label>Email <small>(donde recibir&#225;s la informaci&#243;n del viaje)</small></label>
+                <input Id="emailP_4" class="form-control" equalValue="confemailP_4" id="emailP_4" name="emailP_4" placeholder="Tu dirección de email" required="" type="email" value="" />
+                <span class="error" style="display: none"></span>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <label>Confirma tu email:</label>
+                <input Id="confemailP_4" class="form-control" equalValue="emailP_4" id="confemailP_4" name="confemailP_4" placeholder="Tu dirección de email" required="" type="email" value="" />
+                <span class="error" style="display: none"></span>
+            </div>
+        </div>
+        
+
+       
+            
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6" style="">
+                            <label>Tipo</label>
+                            <select class="form-control" id="tipoTelefono_4" name="tipoTelefono_4">
+                                <option> Celular</option>
+                                <option> Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="col-xs-12 col-md-6" style="">
+                            <label>Pa&#237;s</label>
+                          
+                            <select name="dllPais_4" id="dllPais_4" class="form-control">
+                                    <option value="93" >
+                                        Afghanistan (+93)
+                                    </option>
+                                    <option value="355" >
+                                        Albania (+355)
+                                    </option>
+                                    <option value="49" >
+                                        Alemania (+49)
+                                    </option>
+                                    <option value="213" >
+                                        Algeria (+213)
+                                    </option>
+                                    <option value="376" >
+                                        Andorra (+376)
+                                    </option>
+                                    <option value="244" >
+                                        Angola (+244)
+                                    </option>
+                                    <option value="1" >
+                                        Anguilla_ES (+1)
+                                    </option>
+                                    <option value="1" >
+                                        Antigua y Barbuda (+1)
+                                    </option>
+                                    <option value="599" >
+                                        Antillas Holandesas (+599)
+                                    </option>
+                                    <option value="966" >
+                                        Arabia Saudita (+966)
+                                    </option>
+                                    <option value="54" >
+                                        Argentina (+54)
+                                    </option>
+                                    <option value="374" >
+                                        Armenia (+374)
+                                    </option>
+                                    <option value="297" >
+                                        Aruba (+297)
+                                    </option>
+                                    <option value="247" >
+                                        Ascension Island (+247)
+                                    </option>
+                                    <option value="61" >
+                                        Australia (+61)
+                                    </option>
+                                    <option value="43" >
+                                        Austria (+43)
+                                    </option>
+                                    <option value="994" >
+                                        Azerbaiy&#225;n (+994)
+                                    </option>
+                                    <option value="1" >
+                                        Bahamas (+1)
+                                    </option>
+                                    <option value="973" >
+                                        Bahrain (+973)
+                                    </option>
+                                    <option value="880" >
+                                        Bangladesh (+880)
+                                    </option>
+                                    <option value="1" >
+                                        Barbados (+1)
+                                    </option>
+                                    <option value="375" >
+                                        Belarus (+375)
+                                    </option>
+                                    <option value="32" >
+                                        B&#233;lgica (+32)
+                                    </option>
+                                    <option value="501" >
+                                        Belice (+501)
+                                    </option>
+                                    <option value="229" >
+                                        Benin (+229)
+                                    </option>
+                                    <option value="1" >
+                                        Bermuda (+1)
+                                    </option>
+                                    <option value="975" >
+                                        Bhutan (+975)
+                                    </option>
+                                    <option value="591" >
+                                        Bolivia (+591)
+                                    </option>
+                                    <option value="5997" >
+                                        Bonaire (+5997)
+                                    </option>
+                                    <option value="387" >
+                                        Bosnia and Herzegowina (+387)
+                                    </option>
+                                    <option value="267" >
+                                        Botswana (+267)
+                                    </option>
+                                    <option value="0" >
+                                        Bouvet Island (+0)
+                                    </option>
+                                    <option value="55" >
+                                        Brasil (+55)
+                                    </option>
+                                    <option value="246" >
+                                        British Ocean Territory (+246)
+                                    </option>
+                                    <option value="673" >
+                                        Brunei (+673)
+                                    </option>
+                                    <option value="359" >
+                                        Bulgaria (+359)
+                                    </option>
+                                    <option value="226" >
+                                        Burkina Faso (+226)
+                                    </option>
+                                    <option value="257" >
+                                        Burundi (+257)
+                                    </option>
+                                    <option value="855" >
+                                        Cambodia (+855)
+                                    </option>
+                                    <option value="237" >
+                                        Camer&#250;n (+237)
+                                    </option>
+                                    <option value="1" >
+                                        Canad&#225; (+1)
+                                    </option>
+                                    <option value="235" >
+                                        Chad (+235)
+                                    </option>
+                                    <option value="56" >
+                                        Chile (+56)
+                                    </option>
+                                    <option value="86" >
+                                        China (+86)
+                                    </option>
+                                    <option value="357" >
+                                        Chipre (+357)
+                                    </option>
+                                    <option value="6189162" >
+                                        Cocos (Keeling) Islands (+6189162)
+                                    </option>
+                                    <option value="57" >
+                                        Colombia (+57)
+                                    </option>
+                                    <option value="269" >
+                                        Comoros (+269)
+                                    </option>
+                                    <option value="242" >
+                                        Congo (+242)
+                                    </option>
+                                    <option value="243" >
+                                        Congo, Rep&#250;blica del (+243)
+                                    </option>
+                                    <option value="682" >
+                                        Cook Islands (+682)
+                                    </option>
+                                    <option value="850" >
+                                        Corea del Norte (+850)
+                                    </option>
+                                    <option value="82" >
+                                        Corea del Sur (+82)
+                                    </option>
+                                    <option value="506" >
+                                        Costa Rica (+506)
+                                    </option>
+                                    <option value="225" >
+                                        Cote d Ivoire (+225)
+                                    </option>
+                                    <option value="385" >
+                                        Croacia (+385)
+                                    </option>
+                                    <option value="53" >
+                                        Cuba (+53)
+                                    </option>
+                                    <option value="5999" >
+                                        Curazao (+5999)
+                                    </option>
+                                    <option value="0" >
+                                        Demo Country (+0)
+                                    </option>
+                                    <option value="45" >
+                                        Dinamarca (+45)
+                                    </option>
+                                    <option value="253" >
+                                        Djibouti (+253)
+                                    </option>
+                                    <option value="1" >
+                                        Dominica (+1)
+                                    </option>
+                                    <option value="670" >
+                                        East Timor (+670)
+                                    </option>
+                                    <option value="593" >
+                                        Ecuador (+593)
+                                    </option>
+                                    <option value="20" >
+                                        Egipto (+20)
+                                    </option>
+                                    <option value="503" >
+                                        El Salvador (+503)
+                                    </option>
+                                    <option value="971" >
+                                        Emiratos &#193;rabes Unidos (+971)
+                                    </option>
+                                    <option value="240" >
+                                        Equatorial Guinea (+240)
+                                    </option>
+                                    <option value="291" >
+                                        Eritrea (+291)
+                                    </option>
+                                    <option value="421" >
+                                        Eslovaquia (+421)
+                                    </option>
+                                    <option value="386" >
+                                        Eslovenia (+386)
+                                    </option>
+                                    <option value="34" >
+                                        Espa&#241;a (+34)
+                                    </option>
+                                    <option value="1" >
+                                        Estados unidos (+1)
+                                    </option>
+                                    <option value="372" >
+                                        Estonia (+372)
+                                    </option>
+                                    <option value="251" >
+                                        Etiop&#237;a (+251)
+                                    </option>
+                                    <option value="500" >
+                                        Falkland Islands (Malvinas) (+500)
+                                    </option>
+                                    <option value="679" >
+                                        Fiji (+679)
+                                    </option>
+                                    <option value="63" >
+                                        Filipinas (+63)
+                                    </option>
+                                    <option value="358" >
+                                        Finlandia (+358)
+                                    </option>
+                                    <option value="33" >
+                                        Francia (+33)
+                                    </option>
+                                    <option value="689" >
+                                        French Polynesia (+689)
+                                    </option>
+                                    <option value="262" >
+                                        French Southern Territories (+262)
+                                    </option>
+                                    <option value="241" >
+                                        Gabon (+241)
+                                    </option>
+                                    <option value="220" >
+                                        Gambia (+220)
+                                    </option>
+                                    <option value="995" >
+                                        Georgia (+995)
+                                    </option>
+                                    <option value="233" >
+                                        Ghana (+233)
+                                    </option>
+                                    <option value="350" >
+                                        Gibraltar (+350)
+                                    </option>
+                                    <option value="30" >
+                                        Grecia (+30)
+                                    </option>
+                                    <option value="299" >
+                                        Greenland (+299)
+                                    </option>
+                                    <option value="1" >
+                                        Grenada (+1)
+                                    </option>
+                                    <option value="590" >
+                                        Guadeloupe (+590)
+                                    </option>
+                                    <option value="1" >
+                                        Guam (+1)
+                                    </option>
+                                    <option value="502" >
+                                        Guatemala (+502)
+                                    </option>
+                                    <option value="594" >
+                                        Guayana Francesa (+594)
+                                    </option>
+                                    <option value="224" >
+                                        Guinea (+224)
+                                    </option>
+                                    <option value="245" >
+                                        Guinea-Bissau (+245)
+                                    </option>
+                                    <option value="592" >
+                                        Guyana (+592)
+                                    </option>
+                                    <option value="509" >
+                                        Hait&#237; (+509)
+                                    </option>
+                                    <option value="672" >
+                                        Heard and Mc Donald Islands (+672)
+                                    </option>
+                                    <option value="379" >
+                                        Holy See (Vatican City State) (+379)
+                                    </option>
+                                    <option value="504" >
+                                        Honduras (+504)
+                                    </option>
+                                    <option value="852" >
+                                        Hong Kong (+852)
+                                    </option>
+                                    <option value="36" >
+                                        Hungr&#237;a (+36)
+                                    </option>
+                                    <option value="91" >
+                                        India (+91)
+                                    </option>
+                                    <option value="62" >
+                                        Indonesia (+62)
+                                    </option>
+                                    <option value="44" >
+                                        Inglaterra (+44)
+                                    </option>
+                                    <option value="98" >
+                                        Ir&#225;n, Rep&#250;blica Isl&#225;mica de (+98)
+                                    </option>
+                                    <option value="964" >
+                                        Iraq (+964)
+                                    </option>
+                                    <option value="353" >
+                                        Irlanda (+353)
+                                    </option>
+                                    <option value="247" >
+                                        Irlanda del Norte (+247)
+                                    </option>
+                                    <option value="6189164" >
+                                        Isla de Navidad (+6189164)
+                                    </option>
+                                    <option value="354" >
+                                        islandia (+354)
+                                    </option>
+                                    <option value="1" >
+                                        Islas Caim&#225;n (+1)
+                                    </option>
+                                    <option value="298" >
+                                        Islas Faroe (+298)
+                                    </option>
+                                    <option value="1" >
+                                        Islas Turcas y Caicos (+1)
+                                    </option>
+                                    <option value="1" >
+                                        Islas V&#237;rgenes (Brit&#225;nicas) (+1)
+                                    </option>
+                                    <option value="1" >
+                                        Islas V&#237;rgenes (EE.UU.) (+1)
+                                    </option>
+                                    <option value="972" >
+                                        Israel (+972)
+                                    </option>
+                                    <option value="39" >
+                                        Italia (+39)
+                                    </option>
+                                    <option value="1" >
+                                        Jamaica (+1)
+                                    </option>
+                                    <option value="81" >
+                                        Jap&#243;n (+81)
+                                    </option>
+                                    <option value="962" >
+                                        Jordan (+962)
+                                    </option>
+                                    <option value="7" >
+                                        Kazajst&#225;n (+7)
+                                    </option>
+                                    <option value="254" >
+                                        Kenia (+254)
+                                    </option>
+                                    <option value="686" >
+                                        Kiribati (+686)
+                                    </option>
+                                    <option value="965" >
+                                        Kuwait (+965)
+                                    </option>
+                                    <option value="996" >
+                                        Kyrgyzstan (+996)
+                                    </option>
+                                    <option value="856" >
+                                        Laos (+856)
+                                    </option>
+                                    <option value="371" >
+                                        Latvia (+371)
+                                    </option>
+                                    <option value="961" >
+                                        Lebanon (+961)
+                                    </option>
+                                    <option value="266" >
+                                        Lesotho (+266)
+                                    </option>
+                                    <option value="231" >
+                                        Liberia (+231)
+                                    </option>
+                                    <option value="218" >
+                                        Libia (+218)
+                                    </option>
+                                    <option value="423" >
+                                        Liechtenstein (+423)
+                                    </option>
+                                    <option value="370" >
+                                        Lituania (+370)
+                                    </option>
+                                    <option value="352" >
+                                        Luxenburgo (+352)
+                                    </option>
+                                    <option value="853" >
+                                        Macau (+853)
+                                    </option>
+                                    <option value="389" >
+                                        Macedonia (+389)
+                                    </option>
+                                    <option value="261" >
+                                        Madagascar (+261)
+                                    </option>
+                                    <option value="60" >
+                                        Malasia (+60)
+                                    </option>
+                                    <option value="265" >
+                                        Malawi (+265)
+                                    </option>
+                                    <option value="960" >
+                                        Maldivas (+960)
+                                    </option>
+                                    <option value="223" >
+                                        Mali (+223)
+                                    </option>
+                                    <option value="356" >
+                                        Malta (+356)
+                                    </option>
+                                    <option value="212" >
+                                        Marruecos (+212)
+                                    </option>
+                                    <option value="692" >
+                                        Marshall Islands (+692)
+                                    </option>
+                                    <option value="596" >
+                                        Martinique (+596)
+                                    </option>
+                                    <option value="222" >
+                                        Mauritania (+222)
+                                    </option>
+                                    <option value="230" >
+                                        Mauritius (+230)
+                                    </option>
+                                    <option value="262" >
+                                        Mayotte (+262)
+                                    </option>
+                                    <option value="52" >
+                                        M&#233;xico (+52)
+                                    </option>
+                                    <option value="691" >
+                                        Micronesia (+691)
+                                    </option>
+                                    <option value="373" >
+                                        Moldova, Republic of (+373)
+                                    </option>
+                                    <option value="377" >
+                                        Monaco (+377)
+                                    </option>
+                                    <option value="976" >
+                                        Mongolia (+976)
+                                    </option>
+                                    <option value="382" >
+                                        Montenegro (+382)
+                                    </option>
+                                    <option value="1" >
+                                        Montserrat (+1)
+                                    </option>
+                                    <option value="258" >
+                                        Mozambique (+258)
+                                    </option>
+                                    <option value="95" >
+                                        Myanmar (+95)
+                                    </option>
+                                    <option value="264" >
+                                        Namibia (+264)
+                                    </option>
+                                    <option value="674" >
+                                        Nauru (+674)
+                                    </option>
+                                    <option value="977" >
+                                        Nepal (+977)
+                                    </option>
+                                    <option value="505" >
+                                        Nicaragua (+505)
+                                    </option>
+                                    <option value="227" >
+                                        Niger (+227)
+                                    </option>
+                                    <option value="234" >
+                                        Nigeria (+234)
+                                    </option>
+                                    <option value="247" >
+                                        Niue (+247)
+                                    </option>
+                                    <option value="672" >
+                                        Norfolk Island (+672)
+                                    </option>
+                                    <option value="1" >
+                                        Northern Mariana Islands (+1)
+                                    </option>
+                                    <option value="47" >
+                                        Noruega (+47)
+                                    </option>
+                                    <option value="687" >
+                                        Nueva Caledonia (+687)
+                                    </option>
+                                    <option value="64" >
+                                        Nueva Zelanda (+64)
+                                    </option>
+                                    <option value="0" >
+                                        Otros (+0)
+                                    </option>
+                                    <option value="31" >
+                                        Pa&#237;ses Bajos (+31)
+                                    </option>
+                                    <option value="92" >
+                                        Pakistan (+92)
+                                    </option>
+                                    <option value="680" >
+                                        Palau (+680)
+                                    </option>
+                                    <option value="970" >
+                                        Palestinian Territory (+970)
+                                    </option>
+                                    <option value="507" >
+                                        Panam&#225; (+507)
+                                    </option>
+                                    <option value="675" >
+                                        Pap&#250;a Nueva Guinea (+675)
+                                    </option>
+                                    <option value="595" >
+                                        Paraguay (+595)
+                                    </option>
+                                    <option value="51" >
+                                        Per&#250; (+51)
+                                    </option>
+                                    <option value="64" >
+                                        Pitcairn (+64)
+                                    </option>
+                                    <option value="48" >
+                                        Polonia (+48)
+                                    </option>
+                                    <option value="351" >
+                                        Portugal (+351)
+                                    </option>
+                                    <option value="1" >
+                                        Puerto Rico (+1)
+                                    </option>
+                                    <option value="0" >
+                                        Pullmantur (+0)
+                                    </option>
+                                    <option value="974" >
+                                        Qatar (+974)
+                                    </option>
+                                    <option value="44" >
+                                        Reino Unido (+44)
+                                    </option>
+                                    <option value="963" >
+                                        Rep&#250;blica &#193;rabe Siria (+963)
+                                    </option>
+                                    <option value="236" >
+                                        Rep&#250;blica Centroafricana (+236)
+                                    </option>
+                                    <option value="420" >
+                                        Rep&#250;blica Checa (+420)
+                                    </option>
+                                    <option value="1" >
+                                        Rep&#250;blica Dominicana (+1)
+                                    </option>
+                                    <option value="0" >
+                                        Royal Caribbean (+0)
+                                    </option>
+                                    <option value="40" >
+                                        Rumania (+40)
+                                    </option>
+                                    <option value="7" >
+                                        Rusia (+7)
+                                    </option>
+                                    <option value="250" >
+                                        Rwanda (+250)
+                                    </option>
+                                    <option value="1" >
+                                        Saint Kitts and Nevis (+1)
+                                    </option>
+                                    <option value="508" >
+                                        Saint Pierre and Miquelon (+508)
+                                    </option>
+                                    <option value="1" >
+                                        Saint Vincent &amp; Gren. (+1)
+                                    </option>
+                                    <option value="685" >
+                                        Samoa (+685)
+                                    </option>
+                                    <option value="1" >
+                                        Samoa Americana (+1)
+                                    </option>
+                                    <option value="378" >
+                                        San Marino (+378)
+                                    </option>
+                                    <option value="590" >
+                                        San Mart&#237;n (+590)
+                                    </option>
+                                    <option value="290" >
+                                        Santa Elena (+290)
+                                    </option>
+                                    <option value="1" >
+                                        Santa Luc&#237;a (+1)
+                                    </option>
+                                    <option value="239" >
+                                        Sao Tome and Principe (+239)
+                                    </option>
+                                    <option value="221" >
+                                        Senegal (+221)
+                                    </option>
+                                    <option value="381" >
+                                        Serbia (+381)
+                                    </option>
+                                    <option value="248" >
+                                        Seychelles (+248)
+                                    </option>
+                                    <option value="232" >
+                                        Sierra Leone (+232)
+                                    </option>
+                                    <option value="65" >
+                                        Singapur (+65)
+                                    </option>
+                                    <option value="677" >
+                                        Solomon Islands (+677)
+                                    </option>
+                                    <option value="252" >
+                                        Somalia (+252)
+                                    </option>
+                                    <option value="94" >
+                                        Sri Lanka (+94)
+                                    </option>
+                                    <option value="27" >
+                                        Sud&#225;frica (+27)
+                                    </option>
+                                    <option value="249" >
+                                        Sudan (+249)
+                                    </option>
+                                    <option value="46" >
+                                        Suecia (+46)
+                                    </option>
+                                    <option value="41" >
+                                        Suiza (+41)
+                                    </option>
+                                    <option value="968" >
+                                        Sultanate of Oman (+968)
+                                    </option>
+                                    <option value="597" >
+                                        Suriname (+597)
+                                    </option>
+                                    <option value="47" >
+                                        Svalbard and Jan Mayen Islands (+47)
+                                    </option>
+                                    <option value="268" >
+                                        Swaziland (+268)
+                                    </option>
+                                    <option value="247" >
+                                        Tahiti (+247)
+                                    </option>
+                                    <option value="66" >
+                                        Tailandia (+66)
+                                    </option>
+                                    <option value="886" >
+                                        Taiw&#225;n, Provincia de China (+886)
+                                    </option>
+                                    <option value="992" >
+                                        Tajikistan (+992)
+                                    </option>
+                                    <option value="255" >
+                                        Tanzania, Rep&#250;blica Unida de (+255)
+                                    </option>
+                                    <option value="670" >
+                                        Timor-Leste (+670)
+                                    </option>
+                                    <option value="228" >
+                                        Togo (+228)
+                                    </option>
+                                    <option value="690" >
+                                        Tokelau (+690)
+                                    </option>
+                                    <option value="676" >
+                                        Tonga (+676)
+                                    </option>
+                                    <option value="1" >
+                                        Trinidad y Tobago (+1)
+                                    </option>
+                                    <option value="247" >
+                                        Tristan da Cunha (+247)
+                                    </option>
+                                    <option value="216" >
+                                        T&#250;nez (+216)
+                                    </option>
+                                    <option value="993" >
+                                        Turkmenistan (+993)
+                                    </option>
+                                    <option value="90" >
+                                        Turqu&#237;a (+90)
+                                    </option>
+                                    <option value="688" >
+                                        Tuvalu (+688)
+                                    </option>
+                                    <option value="380" >
+                                        Ucrania (+380)
+                                    </option>
+                                    <option value="256" >
+                                        Uganda (+256)
+                                    </option>
+                                    <option value="598" >
+                                        Uruguay (+598)
+                                    </option>
+                                    <option value="998" >
+                                        Uzbekistan (+998)
+                                    </option>
+                                    <option value="678" >
+                                        Vanuatu (+678)
+                                    </option>
+                                    <option value="58" selected>
+                                        Venezuela (+58)
+                                    </option>
+                                    <option value="84" >
+                                        Vietnam (+84)
+                                    </option>
+                                    <option value="247" >
+                                        Wake Island (+247)
+                                    </option>
+                                    <option value="247" >
+                                        Wales (+247)
+                                    </option>
+                                    <option value="681" >
+                                        Wallis and Futuna Islands (+681)
+                                    </option>
+                                    <option value="212" >
+                                        Western Sahara (+212)
+                                    </option>
+                                    <option value="0" >
+                                        WWW (+0)
+                                    </option>
+                                    <option value="967" >
+                                        Yemen (+967)
+                                    </option>
+                                    <option value="260" >
+                                        Zambia (+260)
+                                    </option>
+                                    <option value="247" >
+                                        Zanzibar (+247)
+                                    </option>
+                                    <option value="263" >
+                                        Zimbabwe (+263)
+                                    </option>
+                            </select>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-8">
+                            <label>N&#250;mero</label>
+                            <input Id="txtNumTelefono_4" class="form-control" id="txtNumTelefono_4" name="txtNumTelefono_4" placeholder="Ingresá un número de teléfono" required="" type="number" value="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        <div class="row">
+          
+        </div>
+
+    </div>
+
+
+<script>
+    $(document).ready(function () {
+        $("#ddlDocumentTypeP_4").ready(function () {
+            var txtP = document.getElementById("ddlDocumentTypeP_4");
+            $("#txtNroDocumentoP_4").attr("placeholder", txtP.selectedOptions[0].dataset.placeholder);
+            if (window.location.toString().indexOf("br") > 0 && document.getElementById("ddlDocumentTypeP_4").selectedIndex == 0) {
+                for(var i=0; i<showMenorBr.length;i++){
+                    showMenorBr[i].style.visibility = "visible";
+                }
+            }
+            else {
+                for(var i=0; i<showMenorBr.length;i++){
+                    showMenorBr[i].style.visibility = "hidden";
+                }
+            }
+        });
+        $("#ddlDocumentTypeP_4").change(function () {
+            var txtP = document.getElementById("ddlDocumentTypeP_4");
+            $("#txtNroDocumentoP_4").attr("placeholder", txtP.selectedOptions[0].dataset.placeholder);
+            if (window.location.toString().indexOf("br") > 0 && document.getElementById("ddlDocumentTypeP_4").selectedIndex == 0) {
+                for(var i=0; i<showMenorBr.length;i++){
+                    showMenorBr[i].style.visibility = "visible";
+                }
+            }
+            else {
+                for(var i=0; i<showMenorBr.length;i++){
+                    showMenorBr[i].style.visibility = "hidden";
+                }
+            }
+        });
+    });
+</script>
+<div class="datos-creditcard-hfs"  nrocc=1 >
+    <input id="hidMonto_1" name="hidMonto_1" type="hidden" value="" />
+    <input id="hidSelectedBank_1" name="hidSelectedBank_1" type="hidden" value="" />
+    <input id="hidSelectedCard_1" name="hidSelectedCard_1" type="hidden" value="" />
+    <input id="hidSelectedInstallment_1" name="hidSelectedInstallment_1" type="hidden" value="" />
+    <input id="hPaymentEmail_1" name="hPaymentEmail_1" type="hidden" value="" />
+
+    <input id="hidCardHolderName_1" name="hidCardHolderName_1" type="hidden" value="" />
+    <input id="hidCardHolderLastName_1" name="hidCardHolderLastName_1" type="hidden" value="" />
+    <input id="hidCardHolderDocumentType_1" name="hidCardHolderDocumentType_1" type="hidden" value="" />
+    <input id="hidCardHolderDocumentNumber_1" name="hidCardHolderDocumentNumber_1" type="hidden" value="" />
+</div>
+                                <div class="hidden">
+                                    <button id="Guardar" type="submit" hidden></button>
+                                </div>                     
+</form>
