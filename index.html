@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,27 +15,36 @@
             <div>
               <!--Destino-->
               <label for="">Destino</label>
+                <br>
                 <select name="">
-                <option value="Perú">Perú</option>
-                <option value="Venezuela">Venezuela</option>
-                <option value="Estados Unidos">Estados Unidos</option>
-                <option value="España">España</option>
+                <option value="(EU)Europa">(EU)Europa</option>
+                <option value="Norte América">Norte Américaa</option>
+                <option value="Caribe-México">Caribe-México</option>
+                <option value="Sudamerica">Sudamerica</option>
+                <option value="África">África</option>
+                <option value="Asia">Asia</option>
+                <option value="Oceanía">Oceanía</option>
+                <option value="Miltidestino">Miltidestino</option>
               </select>
             </div>    
             <div class="">    
               <!--Salida-->
               <label for="">Salida</label>
+              <br>
               <input type="date" name="">
           </div>    
           <div class="">    
               <!--Retorno-->    
               <label for="">Retorno</label>
+              <br>
               <input type="date">
           </div>    
           <div class="">    
               <!--Opciones-->
               <input type="checkbox" name="" value="Opcion 1">Opcion 1
+              <br>
               <input type="checkbox" name="" value="Opcion 2">Opcion 2   
+              <br>
               <input type="checkbox" name="" value="Opcion 3">Opcion 3
           </div>    
           <div class="">
@@ -46,7 +55,7 @@
               </div>
               <br>
               <div class="item3">
-                <label for=""> <65</label>
+                <label for=""> < 65 </label>
                 <input type="text" size="02" maxlength="2">
               </div>
               <div class="item4">
@@ -62,14 +71,14 @@
           </div>
         </div>           
 <!-- --------------------------------- Producto Seleccionado ------------------------- -->
-        <div>
+        
           <h3>Producto Elegido</h3>
-        </div>
+        
         <div class="flex-container">
-            <h3>Producto Elegido</h3>
             <div>
               <!--Nombre del Producto-->
               <label for="">Nombre del producto</label>
+                <br>
                 <select name="">
                 <option value="Producto 1">Producto 1</option>
                 <option value="Producto 2">Producto 2</option>
@@ -80,6 +89,7 @@
             <div class="">    
               <!--Cobertura Global-->
               <label for="">Cobertura Global</label>
+              <br>
               <input type="text" name="" placeholder="Cobertura Global">
             </div>      
             <div class="">
@@ -90,7 +100,7 @@
                 </div>
                 <br>
                 <div class="item3">
-                  <label for="">   <65</label>
+                  <label for=""> < 65  </label>
                   <input type="text" size="02" maxlength="2">
                   <br>
                   <br>
@@ -108,60 +118,84 @@
           <div class="">    
               <!--Precio Total-->
               <label for="">Precio Total</label>
+              <br>
               <input type="text" name="" placeholder="Precio Total" value="USD: 0000" size="6">
             </div>   
-        </div>   
+        </div> 
+        
+        <!-- --------------------------------- Datos del titular ------------------------- -->
+        
+        <h3>Datos de los pasajeros</h3>
+        
+        <div class="flex-container">
+            <div class="">    
+             <!--Pasajero n-->
+                <label for="">Pasajero 1</label>
+                <br>
+                <input type="text" name="" size="3">
+                <br>
+                <br>
+                <input type="text" name="" size="3">
+            </div>      
+            <div class="">    
+             <!--Nombres-->
+                <label for="">Nombres</label>
+                <br>
+                <input type="text" name="" placeholder="Nombres">
+                <br>
+                <br>
+             <!--Tipo de documento-->        
+                <label for="">Tipo de Documento</label>
+                <br>
+                <select name="">
+                    <option value="N">Nacional</option>
+                    <option value="E">Extranjero</option>
+                    <option value="J">Jurídico</option>
+                    <option value="G">Gubernamental</option>
+                </select>
+                <br>
+                <br>
+             <!--Email-->
+                <label for="">E-mail</label>
+                <br>
+                <input type="email" name="" placeholder="E-mail">           
+            </div>
+            <div class="">    
+             <!--Apellidos-->
+                <label for="">Apellidos</label>
+                <br>
+                <input type="text" name="" placeholder="Apellidos">
+             <br>
+             <br>
+                <!--Nro de Documento-->
+             <label for="">Nro de Documento</label>
+             <br>
+             <input type="text" name="" placeholder="Nro de Documento">
+             <br>
+             <br>
+            <!--COD País-->        
+              <label for="">Cod País</label>
+              <br>
+              <select name="">
+                  <option value="VE">+58</option>
+                  <option value="CO">+57</option>
+              </select>
+            </div>                  
+            <div class="">    
+             <!--Fecha de Nacimiento-->
+                <label for="">Fecha de Nacimiento</label>
+                <br>
+                <input type="date" name="">
+            </div>
+            <br>
+            <div class="">
+                
+            </div>
+            
+            </div> 
 
-<!-- --------------------------------- Datos de los pasajeros ------------------------- -->
-        <div>
-          <h3>Datos de los pasajeros</h3>
-        </div>
-        <div class="flex-container">
-            <h3>Producto Elegido</h3>
-            <div>
-              <!--Nombre del Producto-->
-              <label for="">Nombre del producto</label>
-                <select name="">
-                <option value="Producto 1">Producto 1</option>
-                <option value="Producto 2">Producto 2</option>
-                <option value="Producto 3">Producto 3</option>
-                <option value="Producto 4">Producto 4</option>
-              </select>
-            </div>    
-            <div class="">    
-              <!--Cobertura Global-->
-              <label for="">Cobertura Global</label>
-              <input type="text" name="" placeholder="Cobertura Global">
-            </div>      
-            <div class="">
-              <div class="grid-container">   
-                <!--Precio-->
-                <div class="item1">
-                  <label for="">Precio</label>
-                </div>
-                <br>
-                <div class="item3">
-                  <label for="">   <65</label>
-                  <input type="text" size="02" maxlength="2">
-                  <br>
-                  <br>
-                  <label for=""> 65-85</label>
-                  <input type="text" size="02" maxlength="2">
-                </div>
-                <div class="item4">
-                  <input type="text" size="05" maxlength="5">
-                  <br>
-                  <br>
-                  <input type="text" size="05" maxlength="5">
-                </div>  
-            </div>
-          </div>
-          <div class="">    
-              <!--Precio Total-->
-              <label for="">Precio Total</label>
-              <input type="text" name="" placeholder="Precio Total" value="USD: 0000" size="6">
-            </div>   
-        </div>   
+                 
+        </div> 
 
       </form>
     </div>
@@ -173,8 +207,8 @@
     }
 
     .flex-container > div {
-      margin: 11px;
-      padding: 13px;
+      margin: 10px;
+      padding: 5px;
       font-size: 15px;
     } 
 
@@ -196,6 +230,10 @@
     .item1 {
       grid-column-start: 1;
       grid-column-end: 3;
+    }
+
+    .div-flex-min {
+
     }
 
     .button {
