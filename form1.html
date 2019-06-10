@@ -1,0 +1,348 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Persona</title>
+</head>
+<body>
+	<form action="">
+<!-- ----------------------------------- Resumen ------------------------- -->
+		<div class="grid-container">
+			<div class="flex-container">
+
+				<div style="text-align: left">
+					<!--Destino-->
+		            <label for="">Destino</label>
+		            <br>
+		            <select name="">
+		                <option value="(EU)Europa">(EU)Europa</option>
+		                <option value="Norte América">Norte Américaa</option>
+		                <option value="Caribe-México">Caribe-México</option>
+		                <option value="Sudamerica">Sudamerica</option>
+		                <option value="África">África</option>
+		                <option value="Asia">Asia</option>
+		                <option value="Oceanía">Oceanía</option>
+		            	<option value="Miltidestino">Miltidestino</option>
+		            </select>
+	        	</div>
+	        	<!--Salida-->
+	        	<div style="text-align: left">
+	              	<label for="">Salida</label>
+	              	<br>
+	              	<input type="date" name="">
+	        	</div>
+	        	<!--Retorno-->
+	        	<div style="text-align: left">
+	              	<label for="">Retorno</label>
+	              	<br>
+	              	<input type="date" name="">
+	        	</div>
+				<!--Opciones-->
+	        	<div style="text-align: left">
+	              <input type="checkbox" name="" value="Opcion 1">Opcion 1
+	              <br>
+	              <input type="checkbox" name="" value="Opcion 2">Opcion 2   
+	              <br>
+	              <input type="checkbox" name="" value="Opcion 3">Opcion 3
+	        	</div>
+	        	<!--Pasajeros-->
+	              <div>
+	              	<div class="grid-container">   
+	              	<div class="item1">
+	                	<label for="">Pasajeros</label>
+	             	</div>
+	              	<br>
+	              	<div class="item3">
+	                	<label for=""> < 65 </label>
+	                	<br>
+	                	<input type="text" size="02" maxlength="2">
+	              	</div>
+	              	<div class="item4">
+	                	<label for=""> 65-85</label>
+	                	<br>
+	                	<input type="text" size="02" maxlength="2">
+	             	</div>  
+	            </div>
+	                
+	              </div>  
+	        	<!--Btn Cotizar-->
+	        	<div>
+	              <button>Cotizar</button>
+	        	</div>
+			</div>	
+		</div>
+
+<!-- ----------------------------------- Fin Resumen --------------------------- -->
+
+<!-- ----------------------------------- Producto Elegido --------------------------- -->
+		<div style="text-align: left">
+			<h3>Producto Elegido</h3>
+		</div>
+
+		<div class="grid-container">
+			<div class="flex-container">
+
+				<div style="text-align: center">
+				<!--Nombre del Producto-->
+		            <label for="">Nombre del Producto</label>
+		            <br>
+					<h4>Producto</h4>
+	        	</div>
+	        	<!--Salida-->
+	        	<div style="text-align: left">
+	              	<label for="">Salida</label>
+	              	<br>
+	              	<input type="date" name="">
+	        	</div>
+	        	<!--Precio-->
+	            <div>
+	              	<div class="grid-container">   
+		              	<div class="item1">
+		                	<label for="">Precio</label>
+		             	</div>
+	              		<br>
+		              	<div class="item3">
+		                	<label for=""> < 65 </label>
+		                	<input type="text" size="02" maxlength="2">
+		                	<br>
+		                	<br>
+		                	<input type="text" size="02" maxlength="2">
+			            </div>
+		              	<div class="item4">
+		              		<label for=""> 65-85</label>
+		                	<input type="text" size="02" maxlength="2">
+		                	<br>
+		                	<br>
+		                	<input type="text" size="02" maxlength="2">	
+		             	</div>	             	  
+	            	</div>    
+	            </div>
+	            <!--Precio Total-->
+	        	<div style="text-align: left">
+	              	<label for="">Precio Total</label>
+	              	<br>
+	              	<input type="text" name="" size="8" maxlength="12" disabled value="USD 0000.00">
+	        	</div>  
+			</div>	
+		</div>
+
+
+<!-- ----------------------------------- Fin Producto Elegido --------------------------- -->
+
+<!-- --------------------------------  Datos del titular------------------------- -->
+
+		<div style="text-align: left">
+			<h3>Datos del titular</h3>
+		</div>
+
+		<div>
+			<div class="section">
+
+				<!--Pasajero n-->
+				<div class="col grid_1_of_4" style="text-align: center">
+	                <label for="">Pasajero 1</label>
+	                <br>
+	                <input type="text" name="" size="3">
+	                <br>
+	                <br>
+	                <input type="text" name="" size="3"> 
+				</div>
+
+
+				<!--col 2-->
+				<div class="col grid_1_of_4">
+					<!--Nombres-->
+					<div>         
+		                <label for="">Nombres</label>
+		                <br>
+		                <input type="text" name="">
+	      			</div>
+	      			<br>
+	      			<!--Tipo de Documento-->
+					<div>         
+		                <label for="">Tipo de Documento</label>
+		                <br>
+		                <select name="">
+		                    <option value="N">Nacional</option>
+		                    <option value="E">Extranjero</option>
+		                    <option value="J">Jurídico</option>
+		                    <option value="G">Gubernamental</option>
+                		</select>
+	      			</div>
+	      			<br>
+	      			<!--E-mail-->
+					<div>         
+		                <label for="">E-mail</label>
+		                <br>
+		                <input type="text" name="" >
+	      			</div>
+	      			<br>
+	      			<div>
+	      			<!--País-->
+	                	<label for="">País</label>
+	                	<br>
+		                <select name="">
+		                	<option value="null">Seleccione</option>
+		                    <option value="VE">Venezuela</option>
+                		</select>
+                	</div>
+                	<br>
+					<div style="text-align: left">
+						<h4>Contacto de emergencia</h4>
+					</div>
+					<!--Nombres-->
+					<div>         
+		                <label for="">Nombres</label>
+		                <br>
+		                <input type="text" name="">
+	      			</div>
+				</div>
+
+				<div class="col grid_1_of_4">
+				 	<!--Apellidos-->
+					<div>         
+		                <label for="">Apellidos</label>
+		                <br>
+		                <input type="text" name="">
+	      			</div>
+	      			<br>
+				 	<!--Nro de Documento-->
+					<div>         
+		                <label for="">Nro de Documento</label>
+		                <br>
+		                <input type="text" name="">
+	      			</div>
+	      			<br>
+	      			<!--Cod Pais + Celular-->
+					<div style="grid-gap: 10px;padding: -2px 0; display: grid; grid-template-columns: auto auto auto;">
+						<div class="item3">
+	                		<!--Cod País-->
+	                		<label for="">C. País</label>
+	                		<br>
+	                		<select name="">
+	                    		<option value="VE">+58</option>
+	                    		<option value="CO">+57</option>
+	                		</select>
+                		</div>
+                		<div class="item4"style="text-align: left;">
+	                		<!--Celular-->
+	                		<label for="">Celular</label>
+	                		<br>
+	                		<input type="text" size="15" maxlength="15">
+                		</div>
+              		</div>
+	      			<br>
+	      			<!--Ciudad-->
+	      			<div>
+	                	<label for="">Ciudad</label>
+	                	<br>
+		                <select name="">
+		                	<option value="null">Seleccione</option>
+		                    <option value="CSS">Caracas</option>
+                		</select>
+                	</div>
+                	<br>
+                	<br>
+                	<div style="padding: 5px 0;">
+	                	<!--Telefono-->
+	                	<label for="">Telefono</label>
+	                	<br>
+	                	<input type="text" size="15" maxlength="15">
+                	</div>                		      				            	
+                </div>
+
+				<div class="col grid_1_of_4">
+					<!--Fecha de Nacimiento-->
+		        	<div style="text-align: left">
+		              	<label for="">Fecha de Nacimiento</label>
+		              	<br>
+		              	<input type="date" name="">
+		        	</div>
+		  			<br>
+                	<br>
+                	<br>
+                	<br>                	
+                	<br>                	
+					<!--Dirección-->
+		        	<div style="text-align: left">
+		              	<label for="">Dirección</label>
+		              	<br>
+		              	<textarea cols="30" rows="5"></textarea>
+		        	</div>                	                 	
+				</div>
+			</div>
+		</div>
+<!-- --------------------------------  Fin Datos del titular------------------------- -->		
+	</form>
+		<style>
+			/* Section */
+			.section {
+			  clear: both;
+			  margin: 0px;
+			  padding: 0px;
+			}
+			/* Column */
+			.col {
+			  /*background: #eee;*/
+			  display: block;
+			  float:left;
+			  margin: 1% 0 1% 2%;
+			}
+			.col:first-child { margin-left: 0 !important; }
+
+			/* Row */
+			.row:before,
+			.row:after { content:""; display:table; }
+			.row:after { clear:both;}
+			.row { zoom:1; /* For IE 6/7 */ }
+
+			/* Grid */
+			.grid_1_of_4{ width: 23.5% }
+			.grid_2_of_4{ width: 49% }
+			.grid_3_of_4{ width: 74.5% }
+			.grid_4_of_4{ width: 100% }
+
+
+			/* Full Width below 768 pixels */
+			@media only screen and (max-width: 768px) {
+			  .col {  margin: 1% 0 1% 0%; }
+			  [class*='grid_'] { width: 100%; }
+			}
+
+			/*GRID*/
+			
+		    .grid-container {
+		      display: grid;
+		      grid-template-columns: auto auto auto;
+
+		      grid-gap: 10px;
+		      padding: 0px;
+		    }
+
+		    .grid-container > div {
+		      text-align: center;
+		      padding: 1px 0;
+		      font-size: 15px;
+		    }
+
+		    .item1 {
+		      grid-column-start: 1;
+		      grid-column-end: 3;
+		    }
+
+		    	
+		    /*FLEX*/
+
+		    .flex-container {
+		      display: flex;
+		    }
+
+		    .flex-container > div {
+		      margin: 10px;
+		      padding: 5px;
+		      font-size: 15px;
+		    } 
+		</style>
+	</body>
+</html>

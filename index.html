@@ -64,10 +64,10 @@
               </div>  
             </div>
           </div>  
-          <div class="">    
+          <div>    
               <!--btn cotizar-->
               <br>
-              <button>Cotizar</button>
+              <input type="button" name="" placeholder="Cotizar" class="button">
           </div>
         </div>           
 <!-- --------------------------------- Producto Seleccionado ------------------------- -->
@@ -123,7 +123,7 @@
             </div>   
         </div> 
         
-        <!-- --------------------------------- Datos del titular ------------------------- -->
+ <!-- --------------------------------- Datos del titular --------------------- -->
         
         <h3>Datos de los pasajeros</h3>
         
@@ -158,7 +158,14 @@
              <!--Email-->
                 <label for="">E-mail</label>
                 <br>
-                <input type="email" name="" placeholder="E-mail">           
+                <input type="email" name="" placeholder="E-mail"> 
+                <br>
+                <br>
+                <!--Ciudad-->
+                <label for="">Ciudad</label>
+                <br>
+                <input type="text" name="" placeholder="Ciudad">
+                        
             </div>
             <div class="">    
              <!--Apellidos-->
@@ -173,28 +180,71 @@
              <input type="text" name="" placeholder="Nro de Documento">
              <br>
              <br>
-            <!--COD País-->        
-              <label for="">Cod País</label>
+            <div class="grid-container">   
               <br>
-              <select name="">
-                  <option value="VE">+58</option>
-                  <option value="CO">+57</option>
-              </select>
-            </div>                  
-            <div class="">    
-             <!--Fecha de Nacimiento-->
-                <label for="">Fecha de Nacimiento</label>
+              <div class="item3">
+                <!--Cod País-->
+                <label for="">Cod. País</label>
                 <br>
-                <input type="date" name="">
+                <select name="">
+                    <option value="VE">+58</option>
+                    <option value="CO">+57</option>
+                </select>
+              </div>
+              <div class="item4" style="text-align: left;">
+                <!--Cod País-->
+                <label for="">Celular</label>
+                <br>
+                <input type="text" size="15" maxlength="15">
+              </div>
+              <div class="item1" style="text-align: left; padding: 6px 1px">
+                <!--País-->
+                <label for="">País</label>
+                <br>
+                  <select name="">
+                    <option value="VE">Venezuela</option>
+                    <option value="USA">USA</option>
+                  </select>
+                             
+                </div>
+              </div>
+            </div>
+                    
+            <div>    
+             <!--Fecha de Nacimiento-->
+                <div>
+                  <label for="">Fecha de Nacimiento</label>
+                  <br>
+                  <input type="date" name="">
+                  <br>
+                  <br>
+                  <label for="">Dirección</label>
+                  <br>
+                  <textarea rows="5" style="resize: none;" cols="40" name="" maxlength="50"></textarea>
+                  <br>
+                  <br>
+                  <div>
+                    <!--Otras Opciones-->
+                    <input type="checkbox" name="">Repetir celular y correo para los demás pasajeros
+                    <br>
+                    <br>
+                    <input type="checkbox" name="">Repetir el mismo contacto de emergencia para los demás pasajeros
+                  </div>   
+                </div>
+                    
             </div>
             <br>
             <div class="">
-                
+
             </div>
             
             </div> 
 
                  
+        </div>
+        <div class="flex-container">
+                        <h3>Contacto de emergencia</h3>
+
         </div> 
 
       </form>
